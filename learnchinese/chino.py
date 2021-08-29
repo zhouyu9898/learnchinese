@@ -1,4 +1,5 @@
 import random
+import json
 
 vocabulary = {
   "搬": "ban",
@@ -59,22 +60,25 @@ vocabulary = {
   "啤酒": "pijiu",
 }
 
-numbers = []
-while(len(numbers) < len(vocabulary)):
-  print(str(len(numbers))+"/"+str(len(vocabulary)))
-  i = random.randint(0,len(vocabulary)-1)
-  if i in numbers:
-    while i in numbers:
-      i += 1
-      if i > len(vocabulary)-1:
-        i=0
+# numbers = []
+# while(len(numbers) < len(vocabulary)):
+#   print(str(len(numbers))+"/"+str(len(vocabulary)))
+#   i = random.randint(0,len(vocabulary)-1)
+#   if i in numbers:
+#     while i in numbers:
+#       i += 1
+#       if i > len(vocabulary)-1:
+#         i=0
 
-  keys = list(vocabulary.keys())
-  print(keys[i])
-  answer = input()
-  if answer == vocabulary.get(keys[i]):
-    numbers.append(i)
-  else:
-    print("wrong")
+#   keys = list(vocabulary.keys())
+#   print(keys[i])
+#   answer = input()
+#   if answer == vocabulary.get(keys[i]):
+#     numbers.append(i)
+#   else:
+#     print("wrong")
 
-print("Test completed")
+# print("Test completed")
+
+json_vocabulary = json.dumps(vocabulary, indent=4)
+print("bāo")

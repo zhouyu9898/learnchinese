@@ -4,8 +4,12 @@ from django.db import models
 class Word(models.Model):
     hanzi = models.CharField(max_length=30)
     pinyin = models.CharField(max_length=30)
-    meaning = models.CharField(max_length=100)
     solved = models.BooleanField(default=False)
 
     def __str__(self):
-        return self.hanzi
+        return self.hanzi + " " + self.pinyin
+
+
+class Meaning(models.Model):
+    word = models.ForeignKey(Word, on_delete=models.CASCADE)
+    meaning = models.CharField(max_length=100)

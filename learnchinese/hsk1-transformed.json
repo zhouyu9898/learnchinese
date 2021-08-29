@@ -1,0 +1,1202 @@
+[
+    {
+        "model": "chinesetest.Word",
+        "pk": 0,
+        "fields": {
+            "hanzi": "爱",
+            "pinyin": "ài"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 1,
+        "fields": {
+            "hanzi": "八",
+            "pinyin": "bā"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 2,
+        "fields": {
+            "hanzi": "爸爸",
+            "pinyin": "bà ba"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 3,
+        "fields": {
+            "hanzi": "杯子",
+            "pinyin": "bēi zi"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 4,
+        "fields": {
+            "hanzi": "北京",
+            "pinyin": "Běi jīng"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 5,
+        "fields": {
+            "hanzi": "本",
+            "pinyin": "běn"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 6,
+        "fields": {
+            "hanzi": "不客气",
+            "pinyin": "bù kè qi"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 7,
+        "fields": {
+            "hanzi": "不",
+            "pinyin": "bù"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 8,
+        "fields": {
+            "hanzi": "菜",
+            "pinyin": "cài"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 9,
+        "fields": {
+            "hanzi": "茶",
+            "pinyin": "chá"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 10,
+        "fields": {
+            "hanzi": "吃",
+            "pinyin": "chī"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 11,
+        "fields": {
+            "hanzi": "出租车",
+            "pinyin": "chū zū chē"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 12,
+        "fields": {
+            "hanzi": "打电话",
+            "pinyin": "dǎ diàn huà"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 13,
+        "fields": {
+            "hanzi": "大",
+            "pinyin": "dà"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 14,
+        "fields": {
+            "hanzi": "的",
+            "pinyin": "de"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 15,
+        "fields": {
+            "hanzi": "点",
+            "pinyin": "diǎn"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 16,
+        "fields": {
+            "hanzi": "电脑",
+            "pinyin": "diàn nǎo"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 17,
+        "fields": {
+            "hanzi": "电视",
+            "pinyin": "diàn shì"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 18,
+        "fields": {
+            "hanzi": "电影",
+            "pinyin": "diàn yǐng"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 19,
+        "fields": {
+            "hanzi": "东西",
+            "pinyin": "dōng xi"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 20,
+        "fields": {
+            "hanzi": "都",
+            "pinyin": "dōu"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 21,
+        "fields": {
+            "hanzi": "读",
+            "pinyin": "dú"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 22,
+        "fields": {
+            "hanzi": "对不起",
+            "pinyin": "duì bu qǐ"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 23,
+        "fields": {
+            "hanzi": "多",
+            "pinyin": "duō"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 24,
+        "fields": {
+            "hanzi": "多少",
+            "pinyin": "duō shao"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 25,
+        "fields": {
+            "hanzi": "儿子",
+            "pinyin": "ér zi"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 26,
+        "fields": {
+            "hanzi": "二",
+            "pinyin": "èr"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 27,
+        "fields": {
+            "hanzi": "饭馆",
+            "pinyin": "fàn guǎn"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 28,
+        "fields": {
+            "hanzi": "飞机",
+            "pinyin": "fēi jī"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 29,
+        "fields": {
+            "hanzi": "分钟",
+            "pinyin": "fēn zhōng"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 30,
+        "fields": {
+            "hanzi": "高兴",
+            "pinyin": "gāo xìng"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 31,
+        "fields": {
+            "hanzi": "个",
+            "pinyin": "gè"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 32,
+        "fields": {
+            "hanzi": "工作",
+            "pinyin": "gōng zuò"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 33,
+        "fields": {
+            "hanzi": "狗",
+            "pinyin": "gǒu"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 34,
+        "fields": {
+            "hanzi": "汉语",
+            "pinyin": "Hàn yǔ"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 35,
+        "fields": {
+            "hanzi": "好",
+            "pinyin": "hǎo"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 36,
+        "fields": {
+            "hanzi": "喝",
+            "pinyin": "hē"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 37,
+        "fields": {
+            "hanzi": "和",
+            "pinyin": "hé"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 38,
+        "fields": {
+            "hanzi": "很",
+            "pinyin": "hěn"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 39,
+        "fields": {
+            "hanzi": "后面",
+            "pinyin": "hòu mian"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 40,
+        "fields": {
+            "hanzi": "回",
+            "pinyin": "huí"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 41,
+        "fields": {
+            "hanzi": "会",
+            "pinyin": "huì"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 42,
+        "fields": {
+            "hanzi": "火车站",
+            "pinyin": "huǒ chē zhàn"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 43,
+        "fields": {
+            "hanzi": "几",
+            "pinyin": "jǐ"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 44,
+        "fields": {
+            "hanzi": "家",
+            "pinyin": "jiā"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 45,
+        "fields": {
+            "hanzi": "叫",
+            "pinyin": "jiào"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 46,
+        "fields": {
+            "hanzi": "今天",
+            "pinyin": "jīn tiān"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 47,
+        "fields": {
+            "hanzi": "九",
+            "pinyin": "jiǔ"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 48,
+        "fields": {
+            "hanzi": "开",
+            "pinyin": "kāi"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 49,
+        "fields": {
+            "hanzi": "看",
+            "pinyin": "kàn"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 50,
+        "fields": {
+            "hanzi": "看见",
+            "pinyin": "kàn jiàn"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 51,
+        "fields": {
+            "hanzi": "块",
+            "pinyin": "kuài"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 52,
+        "fields": {
+            "hanzi": "来",
+            "pinyin": "lái"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 53,
+        "fields": {
+            "hanzi": "老师",
+            "pinyin": "lǎo shī"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 54,
+        "fields": {
+            "hanzi": "了",
+            "pinyin": "le"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 55,
+        "fields": {
+            "hanzi": "冷",
+            "pinyin": "lěng"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 56,
+        "fields": {
+            "hanzi": "里",
+            "pinyin": "lǐ"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 57,
+        "fields": {
+            "hanzi": "零",
+            "pinyin": "líng"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 58,
+        "fields": {
+            "hanzi": "六",
+            "pinyin": "liù"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 59,
+        "fields": {
+            "hanzi": "妈妈",
+            "pinyin": "mā ma"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 60,
+        "fields": {
+            "hanzi": "吗",
+            "pinyin": "ma"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 61,
+        "fields": {
+            "hanzi": "买",
+            "pinyin": "mǎi"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 62,
+        "fields": {
+            "hanzi": "猫",
+            "pinyin": "māo"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 63,
+        "fields": {
+            "hanzi": "没",
+            "pinyin": "méi"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 64,
+        "fields": {
+            "hanzi": "没关系",
+            "pinyin": "méi guān xi"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 65,
+        "fields": {
+            "hanzi": "米饭",
+            "pinyin": "mǐ fàn"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 66,
+        "fields": {
+            "hanzi": "明天",
+            "pinyin": "míng tiān"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 67,
+        "fields": {
+            "hanzi": "名字",
+            "pinyin": "míng zi"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 68,
+        "fields": {
+            "hanzi": "哪",
+            "pinyin": "nǎ"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 69,
+        "fields": {
+            "hanzi": "那",
+            "pinyin": "nà"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 70,
+        "fields": {
+            "hanzi": "呢",
+            "pinyin": "ne"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 71,
+        "fields": {
+            "hanzi": "能",
+            "pinyin": "néng"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 72,
+        "fields": {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 73,
+        "fields": {
+            "hanzi": "年",
+            "pinyin": "nián"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 74,
+        "fields": {
+            "hanzi": "女儿",
+            "pinyin": "nǚ ér"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 75,
+        "fields": {
+            "hanzi": "朋友",
+            "pinyin": "péng you"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 76,
+        "fields": {
+            "hanzi": "漂亮",
+            "pinyin": "piào liang"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 77,
+        "fields": {
+            "hanzi": "苹果",
+            "pinyin": "píng guǒ"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 78,
+        "fields": {
+            "hanzi": "七",
+            "pinyin": "qī"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 79,
+        "fields": {
+            "hanzi": "钱",
+            "pinyin": "qián"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 80,
+        "fields": {
+            "hanzi": "前面",
+            "pinyin": "qián miàn"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 81,
+        "fields": {
+            "hanzi": "请",
+            "pinyin": "qǐng"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 82,
+        "fields": {
+            "hanzi": "去",
+            "pinyin": "qù"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 83,
+        "fields": {
+            "hanzi": "热",
+            "pinyin": "rè"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 84,
+        "fields": {
+            "hanzi": "人",
+            "pinyin": "rén"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 85,
+        "fields": {
+            "hanzi": "认识",
+            "pinyin": "rèn shi"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 86,
+        "fields": {
+            "hanzi": "日",
+            "pinyin": "rì"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 87,
+        "fields": {
+            "hanzi": "三",
+            "pinyin": "sān"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 88,
+        "fields": {
+            "hanzi": "商店",
+            "pinyin": "shāng diàn"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 89,
+        "fields": {
+            "hanzi": "上",
+            "pinyin": "shàng"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 90,
+        "fields": {
+            "hanzi": "上午",
+            "pinyin": "shàng wǔ"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 91,
+        "fields": {
+            "hanzi": "少",
+            "pinyin": "shǎo"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 92,
+        "fields": {
+            "hanzi": "谁",
+            "pinyin": "shéi"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 93,
+        "fields": {
+            "hanzi": "什么",
+            "pinyin": "shén me"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 94,
+        "fields": {
+            "hanzi": "十",
+            "pinyin": "shí"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 95,
+        "fields": {
+            "hanzi": "时候",
+            "pinyin": "shí hou"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 96,
+        "fields": {
+            "hanzi": "是",
+            "pinyin": "shì"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 97,
+        "fields": {
+            "hanzi": "书",
+            "pinyin": "shū"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 98,
+        "fields": {
+            "hanzi": "水",
+            "pinyin": "shuǐ"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 99,
+        "fields": {
+            "hanzi": "水果",
+            "pinyin": "shuǐ guǒ"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 100,
+        "fields": {
+            "hanzi": "睡觉",
+            "pinyin": "shuì jiào"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 101,
+        "fields": {
+            "hanzi": "说话",
+            "pinyin": "shuō huà"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 102,
+        "fields": {
+            "hanzi": "四",
+            "pinyin": "sì"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 103,
+        "fields": {
+            "hanzi": "岁",
+            "pinyin": "suì"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 104,
+        "fields": {
+            "hanzi": "他",
+            "pinyin": "tā"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 105,
+        "fields": {
+            "hanzi": "她",
+            "pinyin": "tā"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 106,
+        "fields": {
+            "hanzi": "太",
+            "pinyin": "tài"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 107,
+        "fields": {
+            "hanzi": "天气",
+            "pinyin": "tiān qì"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 108,
+        "fields": {
+            "hanzi": "听",
+            "pinyin": "tīng"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 109,
+        "fields": {
+            "hanzi": "同学",
+            "pinyin": "tóng xué"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 110,
+        "fields": {
+            "hanzi": "喂",
+            "pinyin": "wèi"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 111,
+        "fields": {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 112,
+        "fields": {
+            "hanzi": "我们",
+            "pinyin": "wǒ men"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 113,
+        "fields": {
+            "hanzi": "五",
+            "pinyin": "wǔ"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 114,
+        "fields": {
+            "hanzi": "喜欢",
+            "pinyin": "xǐ huan"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 115,
+        "fields": {
+            "hanzi": "下",
+            "pinyin": "xià"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 116,
+        "fields": {
+            "hanzi": "下午",
+            "pinyin": "xià wǔ"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 117,
+        "fields": {
+            "hanzi": "下雨",
+            "pinyin": "xià yǔ"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 118,
+        "fields": {
+            "hanzi": "先生",
+            "pinyin": "xiān sheng"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 119,
+        "fields": {
+            "hanzi": "现在",
+            "pinyin": "xiàn zài"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 120,
+        "fields": {
+            "hanzi": "想",
+            "pinyin": "xiǎng"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 121,
+        "fields": {
+            "hanzi": "小",
+            "pinyin": "xiǎo"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 122,
+        "fields": {
+            "hanzi": "小姐",
+            "pinyin": "xiǎo jie"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 123,
+        "fields": {
+            "hanzi": "些",
+            "pinyin": "xiē"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 124,
+        "fields": {
+            "hanzi": "写",
+            "pinyin": "xiě"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 125,
+        "fields": {
+            "hanzi": "谢谢",
+            "pinyin": "xiè xie"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 126,
+        "fields": {
+            "hanzi": "星期",
+            "pinyin": "xīng qī"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 127,
+        "fields": {
+            "hanzi": "学生",
+            "pinyin": "xué sheng"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 128,
+        "fields": {
+            "hanzi": "学习",
+            "pinyin": "xué xí"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 129,
+        "fields": {
+            "hanzi": "学校",
+            "pinyin": "xué xiào"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 130,
+        "fields": {
+            "hanzi": "一",
+            "pinyin": "yī"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 131,
+        "fields": {
+            "hanzi": "衣服",
+            "pinyin": "yī fu"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 132,
+        "fields": {
+            "hanzi": "医生",
+            "pinyin": "yī shēng"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 133,
+        "fields": {
+            "hanzi": "医院",
+            "pinyin": "yī yuàn"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 134,
+        "fields": {
+            "hanzi": "椅子",
+            "pinyin": "yǐ zi"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 135,
+        "fields": {
+            "hanzi": "有",
+            "pinyin": "yǒu"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 136,
+        "fields": {
+            "hanzi": "月",
+            "pinyin": "yuè"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 137,
+        "fields": {
+            "hanzi": "在",
+            "pinyin": "zài"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 138,
+        "fields": {
+            "hanzi": "再见",
+            "pinyin": "zài jiàn"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 139,
+        "fields": {
+            "hanzi": "怎么",
+            "pinyin": "zěn me"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 140,
+        "fields": {
+            "hanzi": "怎么样",
+            "pinyin": "zěn me yàng"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 141,
+        "fields": {
+            "hanzi": "这",
+            "pinyin": "zhè"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 142,
+        "fields": {
+            "hanzi": "中国",
+            "pinyin": "Zhōng guó"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 143,
+        "fields": {
+            "hanzi": "中午",
+            "pinyin": "zhōng wǔ"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 144,
+        "fields": {
+            "hanzi": "住",
+            "pinyin": "zhù"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 145,
+        "fields": {
+            "hanzi": "桌子",
+            "pinyin": "zhuō zi"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 146,
+        "fields": {
+            "hanzi": "字",
+            "pinyin": "zì"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 147,
+        "fields": {
+            "hanzi": "昨天",
+            "pinyin": "zuó tiān"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 148,
+        "fields": {
+            "hanzi": "坐",
+            "pinyin": "zuò"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 149,
+        "fields": {
+            "hanzi": "做",
+            "pinyin": "zuò"
+        }
+    }
+]

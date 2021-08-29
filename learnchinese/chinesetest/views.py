@@ -5,8 +5,9 @@ import random
 
 
 def index(request):
-    words = Word.objects.all()
-    context = {'words_list': words}
+    words = list(Word.objects.all())
+    print(type(words))
+    context = {'words_list': list(words)}
     return render(request, 'index.html', context)
 
 
@@ -21,6 +22,7 @@ def check(request):
 
 
 def reset(request):
+    pass
     words = Word.objects.all()
     words.update(solved=False)
 
@@ -29,8 +31,9 @@ def reset(request):
 
 
 def shuffle(request):
-    words = list(Word.objects.all())
-    random.shuffle(words)
-    print(words)
-    context = {'words_list': words}
-    return render(request, 'index.html', context)
+    pass
+    # words = list(Word.objects.all())
+    # random.shuffle(words)
+    # print(words)
+    # context = {'words_list': words}
+    # return render(request, 'index.html', context)
