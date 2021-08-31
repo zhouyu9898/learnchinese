@@ -18,12 +18,16 @@
 	<ul>
 		{% for word in words_list %}
 			<li>{{ word.hanzi }}
-				<form action="{% url 'check' %}" method="POST">
-					{% csrf_token %}
-					<input type="text" name="pinyin">
-					<input type="submit" value="check">
-					<input type="hidden" value="{{ word.id }}" name="word_id" />
-				</form>
+				{% if word.solved == True %}
+					<p>solved</p>
+				{% else %}
+					<form action="{% url 'check' %}" method="POST" autocomplete="off">
+						{% csrf_token %}
+						<input type="text" name="pinyin">
+						<input type="submit" value="check">
+						<input type="hidden" value="{{ word.id }}" name="word_id" />
+					</form>
+				{% endif %}
 			</li>
 		{% endfor %}
 	</ul>
