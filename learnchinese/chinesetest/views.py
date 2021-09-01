@@ -12,28 +12,23 @@ def index(request):
 
 
 def check(request):
-    w = Word.objects.filter(id=int(request.POST['word_id']))
-    if unidecode.unidecode(w[0].pinyin).replace(" ", "").lower() == request.POST['pinyin']:
-        w.update(solved=True)
+    # print(request.POST.getlist('pinyin'))
+    # print(request.POST.getlist('word_id'))
+    correct = 0
+    for pinyin, word_id in zip(request.POST.getlist('pinyin'), request.POST.getlist('word_id')):
+        w = Word.objects.filter(id=int(word_id))
+        if unidecode.unidecode(w[0].pinyin).replace(" ", "").lower() == pinyin:
+            correct += 1
 
+    print(correct)
     words = Word.objects.all().order_by('pinyin')
     context = {'words_list': words}
     return render(request, 'index.html', context)
 
 
 def reset(request):
-    pass
-    words = Word.objects.all()
-    words.update(solved=False)
+    words = Word.objects.all().update(solved=False)
+    words = Word.objects.all().order_by('pinyin')
 
     context = {'words_list': words}
     return render(request, 'index.html', context)
-
-
-def shuffle(request):
-    pass
-    # words = list(Word.objects.all())
-    # random.shuffle(words)
-    # print(words)
-    # context = {'words_list': words}
-    # return render(request, 'index.html', context)
