@@ -6,14 +6,14 @@ import unidecode
 
 
 def index(request):
-    words = Word.objects.all().order_by('pinyin')
-    context = {'words_list': list(words)}
-    return render(request, 'index.html', context)
+    return render(request, 'index.html')
 
+def test(request):
+    words = Word.objects.all()
+    context = {'words_list': list(words)}
+    return render(request, 'test.html', context)
 
 def check(request):
-    # print(request.POST.getlist('pinyin'))
-    # print(request.POST.getlist('word_id'))
     correct = 0
     for pinyin, word_id in zip(request.POST.getlist('pinyin'), request.POST.getlist('word_id')):
         w = Word.objects.filter(id=int(word_id))
@@ -21,14 +21,14 @@ def check(request):
             correct += 1
 
     print(correct)
-    words = Word.objects.all().order_by('pinyin')
+    words = Word.objects.all()
     context = {'words_list': words}
     return render(request, 'index.html', context)
 
 
 def reset(request):
     words = Word.objects.all().update(solved=False)
-    words = Word.objects.all().order_by('pinyin')
+    words = Word.objects.all()
 
     context = {'words_list': words}
     return render(request, 'index.html', context)

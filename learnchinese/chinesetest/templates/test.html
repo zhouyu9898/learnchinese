@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<h1>Chinese HSK test</h1>
+	<form action="{% url 'reset' %}">
+		<input type="submit" value="reset">
+	</form>
+	<ul>
+		<form action="{% url 'check' %}" method="POST" autocomplete="off" id="words_form">
+			<table>
+					<tr>
+						<th>Hanzi</th>
+						<th>Pinyin</th>
+					</tr>
+				{% for word in words_list %}
+					{% csrf_token %}
+					<tr>
+						<td>{{ word.hanzi }}</td>
+						<td><input type="text" name="pinyin"></td>
+						<td><input type="hidden" value="{{ word.id }}" name="word_id"/></td>
+					</tr>
+			{% endfor %}
+			</table>
+			<input type="submit" form="words_form" value="check">
+		</form>
+	</ul>
+{% endblock content %}
