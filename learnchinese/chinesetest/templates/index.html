@@ -3,11 +3,11 @@
 {% block content %}
     <h1>Homepage</h1>
 	<ul>
-		<li><a href="{% url 'test' %}">HSK 1</a></li>
-		<li><a href="{% url 'test' %}">HSK 2</a></li>
-		<li><a href="{% url 'test' %}">HSK 3</a></li>
-		<li><a href="{% url 'test' %}">HSK 4</a></li>
-		<li><a href="{% url 'test' %}">HSK 5</a></li>
-		<li><a href="{% url 'test' %}">HSK 6</a></li>
+		<li><a href="{% url 'chinesetest:test' 1 %}">HSK 1</a></li>
+		<li><a href="{% url 'chinesetest:test' 2 %}">HSK 2</a></li>
+		<li><a href="{% url 'chinesetest:test' 3 %}">HSK 3</a></li>
+		<li><a href="{% url 'chinesetest:test' 4 %}">HSK 4</a></li>
+		<li><a href="{% url 'chinesetest:test' 5 %}">HSK 5</a></li>
+		<li><a href="{% url 'chinesetest:test' 6 %}">HSK 6</a></li>
 	</ul>
 {% endblock content %}

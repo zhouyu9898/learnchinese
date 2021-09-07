@@ -4,7 +4,8 @@
         "pk": 300,
         "fields": {
             "hanzi": "阿姨",
-            "pinyin": "ā yí"
+            "pinyin": "ā yí",
+            "hsk": 3
         }
     },
     {
@@ -12,7 +13,8 @@
         "pk": 301,
         "fields": {
             "hanzi": "啊",
-            "pinyin": "a"
+            "pinyin": "a",
+            "hsk": 3
         }
     },
     {
@@ -20,7 +22,8 @@
         "pk": 302,
         "fields": {
             "hanzi": "矮",
-            "pinyin": "ǎi"
+            "pinyin": "ǎi",
+            "hsk": 3
         }
     },
     {
@@ -28,7 +31,8 @@
         "pk": 303,
         "fields": {
             "hanzi": "爱好",
-            "pinyin": "ài hào"
+            "pinyin": "ài hào",
+            "hsk": 3
         }
     },
     {
@@ -36,7 +40,8 @@
         "pk": 304,
         "fields": {
             "hanzi": "安静",
-            "pinyin": "ān jìng"
+            "pinyin": "ān jìng",
+            "hsk": 3
         }
     },
     {
@@ -44,7 +49,8 @@
         "pk": 305,
         "fields": {
             "hanzi": "把",
-            "pinyin": "bǎ"
+            "pinyin": "bǎ",
+            "hsk": 3
         }
     },
     {
@@ -52,7 +58,8 @@
         "pk": 306,
         "fields": {
             "hanzi": "搬",
-            "pinyin": "bān"
+            "pinyin": "bān",
+            "hsk": 3
         }
     },
     {
@@ -60,7 +67,8 @@
         "pk": 307,
         "fields": {
             "hanzi": "班",
-            "pinyin": "bān"
+            "pinyin": "bān",
+            "hsk": 3
         }
     },
     {
@@ -68,7 +76,8 @@
         "pk": 308,
         "fields": {
             "hanzi": "半",
-            "pinyin": "bàn"
+            "pinyin": "bàn",
+            "hsk": 3
         }
     },
     {
@@ -76,7 +85,8 @@
         "pk": 309,
         "fields": {
             "hanzi": "办法",
-            "pinyin": "bàn fǎ"
+            "pinyin": "bàn fǎ",
+            "hsk": 3
         }
     },
     {
@@ -84,7 +94,8 @@
         "pk": 310,
         "fields": {
             "hanzi": "办公室",
-            "pinyin": "bàn gōng shì"
+            "pinyin": "bàn gōng shì",
+            "hsk": 3
         }
     },
     {
@@ -92,7 +103,8 @@
         "pk": 311,
         "fields": {
             "hanzi": "帮忙",
-            "pinyin": "bāng máng"
+            "pinyin": "bāng máng",
+            "hsk": 3
         }
     },
     {
@@ -100,7 +112,8 @@
         "pk": 312,
         "fields": {
             "hanzi": "包",
-            "pinyin": "bāo"
+            "pinyin": "bāo",
+            "hsk": 3
         }
     },
     {
@@ -108,7 +121,8 @@
         "pk": 313,
         "fields": {
             "hanzi": "饱",
-            "pinyin": "bǎo"
+            "pinyin": "bǎo",
+            "hsk": 3
         }
     },
     {
@@ -116,7 +130,8 @@
         "pk": 314,
         "fields": {
             "hanzi": "北方",
-            "pinyin": "běi fāng"
+            "pinyin": "běi fāng",
+            "hsk": 3
         }
     },
     {
@@ -124,7 +139,8 @@
         "pk": 315,
         "fields": {
             "hanzi": "被",
-            "pinyin": "bèi"
+            "pinyin": "bèi",
+            "hsk": 3
         }
     },
     {
@@ -132,7 +148,8 @@
         "pk": 316,
         "fields": {
             "hanzi": "鼻子",
-            "pinyin": "bí zi"
+            "pinyin": "bí zi",
+            "hsk": 3
         }
     },
     {
@@ -140,7 +157,8 @@
         "pk": 317,
         "fields": {
             "hanzi": "比较",
-            "pinyin": "bǐ jiào"
+            "pinyin": "bǐ jiào",
+            "hsk": 3
         }
     },
     {
@@ -148,7 +166,8 @@
         "pk": 318,
         "fields": {
             "hanzi": "比赛",
-            "pinyin": "bǐ sài"
+            "pinyin": "bǐ sài",
+            "hsk": 3
         }
     },
     {
@@ -156,7 +175,8 @@
         "pk": 319,
         "fields": {
             "hanzi": "必须",
-            "pinyin": "bì xū"
+            "pinyin": "bì xū",
+            "hsk": 3
         }
     },
     {
@@ -164,7 +184,8 @@
         "pk": 320,
         "fields": {
             "hanzi": "变化",
-            "pinyin": "biàn huà"
+            "pinyin": "biàn huà",
+            "hsk": 3
         }
     },
     {
@@ -172,7 +193,8 @@
         "pk": 321,
         "fields": {
             "hanzi": "表示",
-            "pinyin": "biǎo shì"
+            "pinyin": "biǎo shì",
+            "hsk": 3
         }
     },
     {
@@ -180,7 +202,8 @@
         "pk": 322,
         "fields": {
             "hanzi": "表演",
-            "pinyin": "biǎo yǎn"
+            "pinyin": "biǎo yǎn",
+            "hsk": 3
         }
     },
     {
@@ -188,7 +211,8 @@
         "pk": 323,
         "fields": {
             "hanzi": "别人",
-            "pinyin": "bié ren"
+            "pinyin": "bié ren",
+            "hsk": 3
         }
     },
     {
@@ -196,7 +220,8 @@
         "pk": 324,
         "fields": {
             "hanzi": "宾馆",
-            "pinyin": "bīn guǎn"
+            "pinyin": "bīn guǎn",
+            "hsk": 3
         }
     },
     {
@@ -204,7 +229,8 @@
         "pk": 325,
         "fields": {
             "hanzi": "冰箱",
-            "pinyin": "bīng xiāng"
+            "pinyin": "bīng xiāng",
+            "hsk": 3
         }
     },
     {
@@ -212,7 +238,8 @@
         "pk": 326,
         "fields": {
             "hanzi": "才",
-            "pinyin": "cái"
+            "pinyin": "cái",
+            "hsk": 3
         }
     },
     {
@@ -220,7 +247,8 @@
         "pk": 327,
         "fields": {
             "hanzi": "菜单",
-            "pinyin": "cài dān"
+            "pinyin": "cài dān",
+            "hsk": 3
         }
     },
     {
@@ -228,7 +256,8 @@
         "pk": 328,
         "fields": {
             "hanzi": "参加",
-            "pinyin": "cān jiā"
+            "pinyin": "cān jiā",
+            "hsk": 3
         }
     },
     {
@@ -236,7 +265,8 @@
         "pk": 329,
         "fields": {
             "hanzi": "草",
-            "pinyin": "cǎo"
+            "pinyin": "cǎo",
+            "hsk": 3
         }
     },
     {
@@ -244,7 +274,8 @@
         "pk": 330,
         "fields": {
             "hanzi": "层",
-            "pinyin": "céng"
+            "pinyin": "céng",
+            "hsk": 3
         }
     },
     {
@@ -252,7 +283,8 @@
         "pk": 331,
         "fields": {
             "hanzi": "差",
-            "pinyin": "chà"
+            "pinyin": "chà",
+            "hsk": 3
         }
     },
     {
@@ -260,7 +292,8 @@
         "pk": 332,
         "fields": {
             "hanzi": "超市",
-            "pinyin": "chāo shì"
+            "pinyin": "chāo shì",
+            "hsk": 3
         }
     },
     {
@@ -268,7 +301,8 @@
         "pk": 333,
         "fields": {
             "hanzi": "衬衫",
-            "pinyin": "chèn shān"
+            "pinyin": "chèn shān",
+            "hsk": 3
         }
     },
     {
@@ -276,7 +310,8 @@
         "pk": 334,
         "fields": {
             "hanzi": "成绩",
-            "pinyin": "chéng jì"
+            "pinyin": "chéng jì",
+            "hsk": 3
         }
     },
     {
@@ -284,7 +319,8 @@
         "pk": 335,
         "fields": {
             "hanzi": "城市",
-            "pinyin": "chéng shì"
+            "pinyin": "chéng shì",
+            "hsk": 3
         }
     },
     {
@@ -292,7 +328,8 @@
         "pk": 336,
         "fields": {
             "hanzi": "迟到",
-            "pinyin": "chí dào"
+            "pinyin": "chí dào",
+            "hsk": 3
         }
     },
     {
@@ -300,7 +337,8 @@
         "pk": 337,
         "fields": {
             "hanzi": "出现",
-            "pinyin": "chū xiàn"
+            "pinyin": "chū xiàn",
+            "hsk": 3
         }
     },
     {
@@ -308,7 +346,8 @@
         "pk": 338,
         "fields": {
             "hanzi": "除了",
-            "pinyin": "chú le"
+            "pinyin": "chú le",
+            "hsk": 3
         }
     },
     {
@@ -316,7 +355,8 @@
         "pk": 339,
         "fields": {
             "hanzi": "厨房",
-            "pinyin": "chú fáng"
+            "pinyin": "chú fáng",
+            "hsk": 3
         }
     },
     {
@@ -324,7 +364,8 @@
         "pk": 340,
         "fields": {
             "hanzi": "春",
-            "pinyin": "chūn"
+            "pinyin": "chūn",
+            "hsk": 3
         }
     },
     {
@@ -332,7 +373,8 @@
         "pk": 341,
         "fields": {
             "hanzi": "词语",
-            "pinyin": "cí yǔ"
+            "pinyin": "cí yǔ",
+            "hsk": 3
         }
     },
     {
@@ -340,7 +382,8 @@
         "pk": 342,
         "fields": {
             "hanzi": "聪明",
-            "pinyin": "cōng ming"
+            "pinyin": "cōng ming",
+            "hsk": 3
         }
     },
     {
@@ -348,7 +391,8 @@
         "pk": 343,
         "fields": {
             "hanzi": "打扫",
-            "pinyin": "dǎ sǎo"
+            "pinyin": "dǎ sǎo",
+            "hsk": 3
         }
     },
     {
@@ -356,7 +400,8 @@
         "pk": 344,
         "fields": {
             "hanzi": "打算",
-            "pinyin": "dǎ suàn"
+            "pinyin": "dǎ suàn",
+            "hsk": 3
         }
     },
     {
@@ -364,7 +409,8 @@
         "pk": 345,
         "fields": {
             "hanzi": "带",
-            "pinyin": "dài"
+            "pinyin": "dài",
+            "hsk": 3
         }
     },
     {
@@ -372,7 +418,8 @@
         "pk": 346,
         "fields": {
             "hanzi": "担心",
-            "pinyin": "dān xīn"
+            "pinyin": "dān xīn",
+            "hsk": 3
         }
     },
     {
@@ -380,7 +427,8 @@
         "pk": 347,
         "fields": {
             "hanzi": "蛋糕",
-            "pinyin": "dàn gāo"
+            "pinyin": "dàn gāo",
+            "hsk": 3
         }
     },
     {
@@ -388,7 +436,8 @@
         "pk": 348,
         "fields": {
             "hanzi": "当然",
-            "pinyin": "dāng rán"
+            "pinyin": "dāng rán",
+            "hsk": 3
         }
     },
     {
@@ -396,7 +445,8 @@
         "pk": 349,
         "fields": {
             "hanzi": "地",
-            "pinyin": "de"
+            "pinyin": "de",
+            "hsk": 3
         }
     },
     {
@@ -404,7 +454,8 @@
         "pk": 350,
         "fields": {
             "hanzi": "灯",
-            "pinyin": "dēng"
+            "pinyin": "dēng",
+            "hsk": 3
         }
     },
     {
@@ -412,7 +463,8 @@
         "pk": 351,
         "fields": {
             "hanzi": "低",
-            "pinyin": "dī"
+            "pinyin": "dī",
+            "hsk": 3
         }
     },
     {
@@ -420,7 +472,8 @@
         "pk": 352,
         "fields": {
             "hanzi": "地方",
-            "pinyin": "dì fang"
+            "pinyin": "dì fang",
+            "hsk": 3
         }
     },
     {
@@ -428,7 +481,8 @@
         "pk": 353,
         "fields": {
             "hanzi": "地铁",
-            "pinyin": "dì tiě"
+            "pinyin": "dì tiě",
+            "hsk": 3
         }
     },
     {
@@ -436,7 +490,8 @@
         "pk": 354,
         "fields": {
             "hanzi": "地图",
-            "pinyin": "dì tú"
+            "pinyin": "dì tú",
+            "hsk": 3
         }
     },
     {
@@ -444,7 +499,8 @@
         "pk": 355,
         "fields": {
             "hanzi": "电梯",
-            "pinyin": "diàn tī"
+            "pinyin": "diàn tī",
+            "hsk": 3
         }
     },
     {
@@ -452,7 +508,8 @@
         "pk": 356,
         "fields": {
             "hanzi": "电子",
-            "pinyin": "diàn zǐ"
+            "pinyin": "diàn zǐ",
+            "hsk": 3
         }
     },
     {
@@ -460,7 +517,8 @@
         "pk": 357,
         "fields": {
             "hanzi": "冬",
-            "pinyin": "dōng"
+            "pinyin": "dōng",
+            "hsk": 3
         }
     },
     {
@@ -468,7 +526,8 @@
         "pk": 358,
         "fields": {
             "hanzi": "东",
-            "pinyin": "dōng"
+            "pinyin": "dōng",
+            "hsk": 3
         }
     },
     {
@@ -476,7 +535,8 @@
         "pk": 359,
         "fields": {
             "hanzi": "动物",
-            "pinyin": "dòng wù"
+            "pinyin": "dòng wù",
+            "hsk": 3
         }
     },
     {
@@ -484,7 +544,8 @@
         "pk": 360,
         "fields": {
             "hanzi": "短",
-            "pinyin": "duǎn"
+            "pinyin": "duǎn",
+            "hsk": 3
         }
     },
     {
@@ -492,7 +553,8 @@
         "pk": 361,
         "fields": {
             "hanzi": "段",
-            "pinyin": "duàn"
+            "pinyin": "duàn",
+            "hsk": 3
         }
     },
     {
@@ -500,7 +562,8 @@
         "pk": 362,
         "fields": {
             "hanzi": "锻炼",
-            "pinyin": "duàn liàn"
+            "pinyin": "duàn liàn",
+            "hsk": 3
         }
     },
     {
@@ -508,7 +571,8 @@
         "pk": 363,
         "fields": {
             "hanzi": "多么",
-            "pinyin": "duō me"
+            "pinyin": "duō me",
+            "hsk": 3
         }
     },
     {
@@ -516,7 +580,8 @@
         "pk": 364,
         "fields": {
             "hanzi": "饿",
-            "pinyin": "è"
+            "pinyin": "è",
+            "hsk": 3
         }
     },
     {
@@ -524,7 +589,8 @@
         "pk": 365,
         "fields": {
             "hanzi": "而且",
-            "pinyin": "ér qiě"
+            "pinyin": "ér qiě",
+            "hsk": 3
         }
     },
     {
@@ -532,7 +598,8 @@
         "pk": 366,
         "fields": {
             "hanzi": "耳朵",
-            "pinyin": "ěr duo"
+            "pinyin": "ěr duo",
+            "hsk": 3
         }
     },
     {
@@ -540,7 +607,8 @@
         "pk": 367,
         "fields": {
             "hanzi": "发烧",
-            "pinyin": "fā shāo"
+            "pinyin": "fā shāo",
+            "hsk": 3
         }
     },
     {
@@ -548,7 +616,8 @@
         "pk": 368,
         "fields": {
             "hanzi": "发现",
-            "pinyin": "fā xiàn"
+            "pinyin": "fā xiàn",
+            "hsk": 3
         }
     },
     {
@@ -556,7 +625,8 @@
         "pk": 369,
         "fields": {
             "hanzi": "方便",
-            "pinyin": "fāng biàn"
+            "pinyin": "fāng biàn",
+            "hsk": 3
         }
     },
     {
@@ -564,7 +634,8 @@
         "pk": 370,
         "fields": {
             "hanzi": "放",
-            "pinyin": "fàng"
+            "pinyin": "fàng",
+            "hsk": 3
         }
     },
     {
@@ -572,7 +643,8 @@
         "pk": 371,
         "fields": {
             "hanzi": "放心",
-            "pinyin": "fàng xīn"
+            "pinyin": "fàng xīn",
+            "hsk": 3
         }
     },
     {
@@ -580,7 +652,8 @@
         "pk": 372,
         "fields": {
             "hanzi": "分",
-            "pinyin": "fēn"
+            "pinyin": "fēn",
+            "hsk": 3
         }
     },
     {
@@ -588,7 +661,8 @@
         "pk": 373,
         "fields": {
             "hanzi": "附近",
-            "pinyin": "fù jìn"
+            "pinyin": "fù jìn",
+            "hsk": 3
         }
     },
     {
@@ -596,7 +670,8 @@
         "pk": 374,
         "fields": {
             "hanzi": "复习",
-            "pinyin": "fù xí"
+            "pinyin": "fù xí",
+            "hsk": 3
         }
     },
     {
@@ -604,7 +679,8 @@
         "pk": 375,
         "fields": {
             "hanzi": "干净",
-            "pinyin": "gān jìng"
+            "pinyin": "gān jìng",
+            "hsk": 3
         }
     },
     {
@@ -612,7 +688,8 @@
         "pk": 376,
         "fields": {
             "hanzi": "敢",
-            "pinyin": "gǎn"
+            "pinyin": "gǎn",
+            "hsk": 3
         }
     },
     {
@@ -620,7 +697,8 @@
         "pk": 377,
         "fields": {
             "hanzi": "感冒",
-            "pinyin": "gǎn mào"
+            "pinyin": "gǎn mào",
+            "hsk": 3
         }
     },
     {
@@ -628,7 +706,8 @@
         "pk": 378,
         "fields": {
             "hanzi": "刚才",
-            "pinyin": "gāng cái"
+            "pinyin": "gāng cái",
+            "hsk": 3
         }
     },
     {
@@ -636,7 +715,8 @@
         "pk": 379,
         "fields": {
             "hanzi": "根据",
-            "pinyin": "gēn jù"
+            "pinyin": "gēn jù",
+            "hsk": 3
         }
     },
     {
@@ -644,7 +724,8 @@
         "pk": 380,
         "fields": {
             "hanzi": "跟",
-            "pinyin": "gēn"
+            "pinyin": "gēn",
+            "hsk": 3
         }
     },
     {
@@ -652,7 +733,8 @@
         "pk": 381,
         "fields": {
             "hanzi": "更",
-            "pinyin": "gèng"
+            "pinyin": "gèng",
+            "hsk": 3
         }
     },
     {
@@ -660,7 +742,8 @@
         "pk": 382,
         "fields": {
             "hanzi": "公园",
-            "pinyin": "gōng yuán"
+            "pinyin": "gōng yuán",
+            "hsk": 3
         }
     },
     {
@@ -668,7 +751,8 @@
         "pk": 383,
         "fields": {
             "hanzi": "故事",
-            "pinyin": "gù shi"
+            "pinyin": "gù shi",
+            "hsk": 3
         }
     },
     {
@@ -676,7 +760,8 @@
         "pk": 384,
         "fields": {
             "hanzi": "刮",
-            "pinyin": "guā"
+            "pinyin": "guā",
+            "hsk": 3
         }
     },
     {
@@ -684,7 +769,8 @@
         "pk": 385,
         "fields": {
             "hanzi": "关",
-            "pinyin": "guān"
+            "pinyin": "guān",
+            "hsk": 3
         }
     },
     {
@@ -692,7 +778,8 @@
         "pk": 386,
         "fields": {
             "hanzi": "关系",
-            "pinyin": "guān xì"
+            "pinyin": "guān xì",
+            "hsk": 3
         }
     },
     {
@@ -700,7 +787,8 @@
         "pk": 387,
         "fields": {
             "hanzi": "关心",
-            "pinyin": "guān xīn"
+            "pinyin": "guān xīn",
+            "hsk": 3
         }
     },
     {
@@ -708,7 +796,8 @@
         "pk": 388,
         "fields": {
             "hanzi": "关于",
-            "pinyin": "guān yú"
+            "pinyin": "guān yú",
+            "hsk": 3
         }
     },
     {
@@ -716,7 +805,8 @@
         "pk": 389,
         "fields": {
             "hanzi": "国家",
-            "pinyin": "guó jiā"
+            "pinyin": "guó jiā",
+            "hsk": 3
         }
     },
     {
@@ -724,7 +814,8 @@
         "pk": 390,
         "fields": {
             "hanzi": "果汁",
-            "pinyin": "guǒ zhī"
+            "pinyin": "guǒ zhī",
+            "hsk": 3
         }
     },
     {
@@ -732,7 +823,8 @@
         "pk": 391,
         "fields": {
             "hanzi": "过去",
-            "pinyin": "guò qu"
+            "pinyin": "guò qu",
+            "hsk": 3
         }
     },
     {
@@ -740,7 +832,8 @@
         "pk": 392,
         "fields": {
             "hanzi": "还是",
-            "pinyin": "hái shi"
+            "pinyin": "hái shi",
+            "hsk": 3
         }
     },
     {
@@ -748,7 +841,8 @@
         "pk": 393,
         "fields": {
             "hanzi": "害怕",
-            "pinyin": "hài pà"
+            "pinyin": "hài pà",
+            "hsk": 3
         }
     },
     {
@@ -756,7 +850,8 @@
         "pk": 394,
         "fields": {
             "hanzi": "河",
-            "pinyin": "hé"
+            "pinyin": "hé",
+            "hsk": 3
         }
     },
     {
@@ -764,7 +859,8 @@
         "pk": 395,
         "fields": {
             "hanzi": "黑板",
-            "pinyin": "hēi bǎn"
+            "pinyin": "hēi bǎn",
+            "hsk": 3
         }
     },
     {
@@ -772,7 +868,8 @@
         "pk": 396,
         "fields": {
             "hanzi": "护照",
-            "pinyin": "hù zhào"
+            "pinyin": "hù zhào",
+            "hsk": 3
         }
     },
     {
@@ -780,7 +877,8 @@
         "pk": 397,
         "fields": {
             "hanzi": "花",
-            "pinyin": "huā"
+            "pinyin": "huā",
+            "hsk": 3
         }
     },
     {
@@ -788,7 +886,8 @@
         "pk": 398,
         "fields": {
             "hanzi": "花园",
-            "pinyin": "huā yuán"
+            "pinyin": "huā yuán",
+            "hsk": 3
         }
     },
     {
@@ -796,7 +895,8 @@
         "pk": 399,
         "fields": {
             "hanzi": "画",
-            "pinyin": "huà"
+            "pinyin": "huà",
+            "hsk": 3
         }
     },
     {
@@ -804,7 +904,8 @@
         "pk": 400,
         "fields": {
             "hanzi": "坏",
-            "pinyin": "huài"
+            "pinyin": "huài",
+            "hsk": 3
         }
     },
     {
@@ -812,7 +913,8 @@
         "pk": 401,
         "fields": {
             "hanzi": "环境",
-            "pinyin": "huán jìng"
+            "pinyin": "huán jìng",
+            "hsk": 3
         }
     },
     {
@@ -820,7 +922,8 @@
         "pk": 402,
         "fields": {
             "hanzi": "换",
-            "pinyin": "huàn"
+            "pinyin": "huàn",
+            "hsk": 3
         }
     },
     {
@@ -828,7 +931,8 @@
         "pk": 403,
         "fields": {
             "hanzi": "黄",
-            "pinyin": "huáng"
+            "pinyin": "huáng",
+            "hsk": 3
         }
     },
     {
@@ -836,7 +940,8 @@
         "pk": 404,
         "fields": {
             "hanzi": "会议",
-            "pinyin": "huì yì"
+            "pinyin": "huì yì",
+            "hsk": 3
         }
     },
     {
@@ -844,7 +949,8 @@
         "pk": 405,
         "fields": {
             "hanzi": "或者",
-            "pinyin": "huò zhě"
+            "pinyin": "huò zhě",
+            "hsk": 3
         }
     },
     {
@@ -852,7 +958,8 @@
         "pk": 406,
         "fields": {
             "hanzi": "机会",
-            "pinyin": "jī huì"
+            "pinyin": "jī huì",
+            "hsk": 3
         }
     },
     {
@@ -860,7 +967,8 @@
         "pk": 407,
         "fields": {
             "hanzi": "几乎",
-            "pinyin": "jī hū"
+            "pinyin": "jī hū",
+            "hsk": 3
         }
     },
     {
@@ -868,7 +976,8 @@
         "pk": 408,
         "fields": {
             "hanzi": "极",
-            "pinyin": "jí"
+            "pinyin": "jí",
+            "hsk": 3
         }
     },
     {
@@ -876,7 +985,8 @@
         "pk": 409,
         "fields": {
             "hanzi": "记得",
-            "pinyin": "jì de"
+            "pinyin": "jì de",
+            "hsk": 3
         }
     },
     {
@@ -884,7 +994,8 @@
         "pk": 410,
         "fields": {
             "hanzi": "季节",
-            "pinyin": "jì jié"
+            "pinyin": "jì jié",
+            "hsk": 3
         }
     },
     {
@@ -892,7 +1003,8 @@
         "pk": 411,
         "fields": {
             "hanzi": "检查",
-            "pinyin": "jiǎn chá"
+            "pinyin": "jiǎn chá",
+            "hsk": 3
         }
     },
     {
@@ -900,7 +1012,8 @@
         "pk": 412,
         "fields": {
             "hanzi": "简单",
-            "pinyin": "jiǎn dān"
+            "pinyin": "jiǎn dān",
+            "hsk": 3
         }
     },
     {
@@ -908,7 +1021,8 @@
         "pk": 413,
         "fields": {
             "hanzi": "见面",
-            "pinyin": "jiàn miàn"
+            "pinyin": "jiàn miàn",
+            "hsk": 3
         }
     },
     {
@@ -916,7 +1030,8 @@
         "pk": 414,
         "fields": {
             "hanzi": "健康",
-            "pinyin": "jiàn kāng"
+            "pinyin": "jiàn kāng",
+            "hsk": 3
         }
     },
     {
@@ -924,7 +1039,8 @@
         "pk": 415,
         "fields": {
             "hanzi": "讲",
-            "pinyin": "jiǎng"
+            "pinyin": "jiǎng",
+            "hsk": 3
         }
     },
     {
@@ -932,7 +1048,8 @@
         "pk": 416,
         "fields": {
             "hanzi": "教",
-            "pinyin": "jiāo"
+            "pinyin": "jiāo",
+            "hsk": 3
         }
     },
     {
@@ -940,7 +1057,8 @@
         "pk": 417,
         "fields": {
             "hanzi": "脚",
-            "pinyin": "jiǎo"
+            "pinyin": "jiǎo",
+            "hsk": 3
         }
     },
     {
@@ -948,7 +1066,8 @@
         "pk": 418,
         "fields": {
             "hanzi": "角",
-            "pinyin": "jiǎo"
+            "pinyin": "jiǎo",
+            "hsk": 3
         }
     },
     {
@@ -956,7 +1075,8 @@
         "pk": 419,
         "fields": {
             "hanzi": "接",
-            "pinyin": "jiē"
+            "pinyin": "jiē",
+            "hsk": 3
         }
     },
     {
@@ -964,7 +1084,8 @@
         "pk": 420,
         "fields": {
             "hanzi": "街道",
-            "pinyin": "jiē dào"
+            "pinyin": "jiē dào",
+            "hsk": 3
         }
     },
     {
@@ -972,7 +1093,8 @@
         "pk": 421,
         "fields": {
             "hanzi": "节目",
-            "pinyin": "jié mù"
+            "pinyin": "jié mù",
+            "hsk": 3
         }
     },
     {
@@ -980,7 +1102,8 @@
         "pk": 422,
         "fields": {
             "hanzi": "节日",
-            "pinyin": "jié rì"
+            "pinyin": "jié rì",
+            "hsk": 3
         }
     },
     {
@@ -988,7 +1111,8 @@
         "pk": 423,
         "fields": {
             "hanzi": "结婚",
-            "pinyin": "jié hūn"
+            "pinyin": "jié hūn",
+            "hsk": 3
         }
     },
     {
@@ -996,7 +1120,8 @@
         "pk": 424,
         "fields": {
             "hanzi": "结束",
-            "pinyin": "jié shù"
+            "pinyin": "jié shù",
+            "hsk": 3
         }
     },
     {
@@ -1004,7 +1129,8 @@
         "pk": 425,
         "fields": {
             "hanzi": "解决",
-            "pinyin": "jiě jué"
+            "pinyin": "jiě jué",
+            "hsk": 3
         }
     },
     {
@@ -1012,7 +1138,8 @@
         "pk": 426,
         "fields": {
             "hanzi": "借",
-            "pinyin": "jiè"
+            "pinyin": "jiè",
+            "hsk": 3
         }
     },
     {
@@ -1020,7 +1147,8 @@
         "pk": 427,
         "fields": {
             "hanzi": "经常",
-            "pinyin": "jīng cháng"
+            "pinyin": "jīng cháng",
+            "hsk": 3
         }
     },
     {
@@ -1028,7 +1156,8 @@
         "pk": 428,
         "fields": {
             "hanzi": "经过",
-            "pinyin": "jīng guò"
+            "pinyin": "jīng guò",
+            "hsk": 3
         }
     },
     {
@@ -1036,7 +1165,8 @@
         "pk": 429,
         "fields": {
             "hanzi": "经理",
-            "pinyin": "jīng lǐ"
+            "pinyin": "jīng lǐ",
+            "hsk": 3
         }
     },
     {
@@ -1044,7 +1174,8 @@
         "pk": 430,
         "fields": {
             "hanzi": "久",
-            "pinyin": "jiǔ"
+            "pinyin": "jiǔ",
+            "hsk": 3
         }
     },
     {
@@ -1052,7 +1183,8 @@
         "pk": 431,
         "fields": {
             "hanzi": "旧",
-            "pinyin": "jiù"
+            "pinyin": "jiù",
+            "hsk": 3
         }
     },
     {
@@ -1060,7 +1192,8 @@
         "pk": 432,
         "fields": {
             "hanzi": "举行",
-            "pinyin": "jǔ xíng"
+            "pinyin": "jǔ xíng",
+            "hsk": 3
         }
     },
     {
@@ -1068,7 +1201,8 @@
         "pk": 433,
         "fields": {
             "hanzi": "句子",
-            "pinyin": "jù zi"
+            "pinyin": "jù zi",
+            "hsk": 3
         }
     },
     {
@@ -1076,7 +1210,8 @@
         "pk": 434,
         "fields": {
             "hanzi": "决定",
-            "pinyin": "jué dìng"
+            "pinyin": "jué dìng",
+            "hsk": 3
         }
     },
     {
@@ -1084,7 +1219,8 @@
         "pk": 435,
         "fields": {
             "hanzi": "渴",
-            "pinyin": "kě"
+            "pinyin": "kě",
+            "hsk": 3
         }
     },
     {
@@ -1092,7 +1228,8 @@
         "pk": 436,
         "fields": {
             "hanzi": "可爱",
-            "pinyin": "kě ài"
+            "pinyin": "kě ài",
+            "hsk": 3
         }
     },
     {
@@ -1100,7 +1237,8 @@
         "pk": 437,
         "fields": {
             "hanzi": "刻",
-            "pinyin": "kè"
+            "pinyin": "kè",
+            "hsk": 3
         }
     },
     {
@@ -1108,7 +1246,8 @@
         "pk": 438,
         "fields": {
             "hanzi": "客人",
-            "pinyin": "kè rén"
+            "pinyin": "kè rén",
+            "hsk": 3
         }
     },
     {
@@ -1116,7 +1255,8 @@
         "pk": 439,
         "fields": {
             "hanzi": "空调",
-            "pinyin": "kōng tiáo"
+            "pinyin": "kōng tiáo",
+            "hsk": 3
         }
     },
     {
@@ -1124,7 +1264,8 @@
         "pk": 440,
         "fields": {
             "hanzi": "口",
-            "pinyin": "kǒu"
+            "pinyin": "kǒu",
+            "hsk": 3
         }
     },
     {
@@ -1132,7 +1273,8 @@
         "pk": 441,
         "fields": {
             "hanzi": "哭",
-            "pinyin": "kū"
+            "pinyin": "kū",
+            "hsk": 3
         }
     },
     {
@@ -1140,7 +1282,8 @@
         "pk": 442,
         "fields": {
             "hanzi": "裤子",
-            "pinyin": "kù zi"
+            "pinyin": "kù zi",
+            "hsk": 3
         }
     },
     {
@@ -1148,7 +1291,8 @@
         "pk": 443,
         "fields": {
             "hanzi": "筷子",
-            "pinyin": "kuài zi"
+            "pinyin": "kuài zi",
+            "hsk": 3
         }
     },
     {
@@ -1156,7 +1300,8 @@
         "pk": 444,
         "fields": {
             "hanzi": "蓝",
-            "pinyin": "lán"
+            "pinyin": "lán",
+            "hsk": 3
         }
     },
     {
@@ -1164,7 +1309,8 @@
         "pk": 445,
         "fields": {
             "hanzi": "老",
-            "pinyin": "lǎo"
+            "pinyin": "lǎo",
+            "hsk": 3
         }
     },
     {
@@ -1172,7 +1318,8 @@
         "pk": 446,
         "fields": {
             "hanzi": "离开",
-            "pinyin": "lí kāi"
+            "pinyin": "lí kāi",
+            "hsk": 3
         }
     },
     {
@@ -1180,7 +1327,8 @@
         "pk": 447,
         "fields": {
             "hanzi": "礼物",
-            "pinyin": "lǐ wù"
+            "pinyin": "lǐ wù",
+            "hsk": 3
         }
     },
     {
@@ -1188,7 +1336,8 @@
         "pk": 448,
         "fields": {
             "hanzi": "历史",
-            "pinyin": "lì shǐ"
+            "pinyin": "lì shǐ",
+            "hsk": 3
         }
     },
     {
@@ -1196,7 +1345,8 @@
         "pk": 449,
         "fields": {
             "hanzi": "脸",
-            "pinyin": "liǎn"
+            "pinyin": "liǎn",
+            "hsk": 3
         }
     },
     {
@@ -1204,7 +1354,8 @@
         "pk": 450,
         "fields": {
             "hanzi": "练习",
-            "pinyin": "liàn xí"
+            "pinyin": "liàn xí",
+            "hsk": 3
         }
     },
     {
@@ -1212,7 +1363,8 @@
         "pk": 451,
         "fields": {
             "hanzi": "辆",
-            "pinyin": "liàng"
+            "pinyin": "liàng",
+            "hsk": 3
         }
     },
     {
@@ -1220,7 +1372,8 @@
         "pk": 452,
         "fields": {
             "hanzi": "了解",
-            "pinyin": "liǎo jiě"
+            "pinyin": "liǎo jiě",
+            "hsk": 3
         }
     },
     {
@@ -1228,7 +1381,8 @@
         "pk": 453,
         "fields": {
             "hanzi": "邻居",
-            "pinyin": "lín jū"
+            "pinyin": "lín jū",
+            "hsk": 3
         }
     },
     {
@@ -1236,7 +1390,8 @@
         "pk": 454,
         "fields": {
             "hanzi": "楼",
-            "pinyin": "lóu"
+            "pinyin": "lóu",
+            "hsk": 3
         }
     },
     {
@@ -1244,7 +1399,8 @@
         "pk": 455,
         "fields": {
             "hanzi": "绿",
-            "pinyin": "lǜ"
+            "pinyin": "lǜ",
+            "hsk": 3
         }
     },
     {
@@ -1252,7 +1408,8 @@
         "pk": 456,
         "fields": {
             "hanzi": "马",
-            "pinyin": "mǎ"
+            "pinyin": "mǎ",
+            "hsk": 3
         }
     },
     {
@@ -1260,7 +1417,8 @@
         "pk": 457,
         "fields": {
             "hanzi": "马上",
-            "pinyin": "mǎ shàng"
+            "pinyin": "mǎ shàng",
+            "hsk": 3
         }
     },
     {
@@ -1268,7 +1426,8 @@
         "pk": 458,
         "fields": {
             "hanzi": "满意",
-            "pinyin": "mǎn yì"
+            "pinyin": "mǎn yì",
+            "hsk": 3
         }
     },
     {
@@ -1276,7 +1435,8 @@
         "pk": 459,
         "fields": {
             "hanzi": "帽子",
-            "pinyin": "mào zi"
+            "pinyin": "mào zi",
+            "hsk": 3
         }
     },
     {
@@ -1284,7 +1444,8 @@
         "pk": 460,
         "fields": {
             "hanzi": "米",
-            "pinyin": "mǐ"
+            "pinyin": "mǐ",
+            "hsk": 3
         }
     },
     {
@@ -1292,7 +1453,8 @@
         "pk": 461,
         "fields": {
             "hanzi": "面包",
-            "pinyin": "miàn bāo"
+            "pinyin": "miàn bāo",
+            "hsk": 3
         }
     },
     {
@@ -1300,7 +1462,8 @@
         "pk": 462,
         "fields": {
             "hanzi": "面条",
-            "pinyin": "miàn tiáo"
+            "pinyin": "miàn tiáo",
+            "hsk": 3
         }
     },
     {
@@ -1308,7 +1471,8 @@
         "pk": 463,
         "fields": {
             "hanzi": "明白",
-            "pinyin": "míng bai"
+            "pinyin": "míng bai",
+            "hsk": 3
         }
     },
     {
@@ -1316,7 +1480,8 @@
         "pk": 464,
         "fields": {
             "hanzi": "拿",
-            "pinyin": "ná"
+            "pinyin": "ná",
+            "hsk": 3
         }
     },
     {
@@ -1324,7 +1489,8 @@
         "pk": 465,
         "fields": {
             "hanzi": "奶奶",
-            "pinyin": "nǎi nai"
+            "pinyin": "nǎi nai",
+            "hsk": 3
         }
     },
     {
@@ -1332,7 +1498,8 @@
         "pk": 466,
         "fields": {
             "hanzi": "南",
-            "pinyin": "nán"
+            "pinyin": "nán",
+            "hsk": 3
         }
     },
     {
@@ -1340,7 +1507,8 @@
         "pk": 467,
         "fields": {
             "hanzi": "难",
-            "pinyin": "nán"
+            "pinyin": "nán",
+            "hsk": 3
         }
     },
     {
@@ -1348,7 +1516,8 @@
         "pk": 468,
         "fields": {
             "hanzi": "难过",
-            "pinyin": "nán guò"
+            "pinyin": "nán guò",
+            "hsk": 3
         }
     },
     {
@@ -1356,7 +1525,8 @@
         "pk": 469,
         "fields": {
             "hanzi": "年级",
-            "pinyin": "nián jí"
+            "pinyin": "nián jí",
+            "hsk": 3
         }
     },
     {
@@ -1364,7 +1534,8 @@
         "pk": 470,
         "fields": {
             "hanzi": "年轻",
-            "pinyin": "nián qīng"
+            "pinyin": "nián qīng",
+            "hsk": 3
         }
     },
     {
@@ -1372,7 +1543,8 @@
         "pk": 471,
         "fields": {
             "hanzi": "鸟",
-            "pinyin": "niǎo"
+            "pinyin": "niǎo",
+            "hsk": 3
         }
     },
     {
@@ -1380,7 +1552,8 @@
         "pk": 472,
         "fields": {
             "hanzi": "努力",
-            "pinyin": "nǔ lì"
+            "pinyin": "nǔ lì",
+            "hsk": 3
         }
     },
     {
@@ -1388,7 +1561,8 @@
         "pk": 473,
         "fields": {
             "hanzi": "爬山",
-            "pinyin": "pá shān"
+            "pinyin": "pá shān",
+            "hsk": 3
         }
     },
     {
@@ -1396,7 +1570,8 @@
         "pk": 474,
         "fields": {
             "hanzi": "盘子",
-            "pinyin": "pán zi"
+            "pinyin": "pán zi",
+            "hsk": 3
         }
     },
     {
@@ -1404,7 +1579,8 @@
         "pk": 475,
         "fields": {
             "hanzi": "胖",
-            "pinyin": "pàng"
+            "pinyin": "pàng",
+            "hsk": 3
         }
     },
     {
@@ -1412,7 +1588,8 @@
         "pk": 476,
         "fields": {
             "hanzi": "啤酒",
-            "pinyin": "pí jiǔ"
+            "pinyin": "pí jiǔ",
+            "hsk": 3
         }
     },
     {
@@ -1420,7 +1597,8 @@
         "pk": 477,
         "fields": {
             "hanzi": "葡萄",
-            "pinyin": "pú tao"
+            "pinyin": "pú tao",
+            "hsk": 3
         }
     },
     {
@@ -1428,7 +1606,8 @@
         "pk": 478,
         "fields": {
             "hanzi": "普通话",
-            "pinyin": "pǔ tōng huà"
+            "pinyin": "pǔ tōng huà",
+            "hsk": 3
         }
     },
     {
@@ -1436,7 +1615,8 @@
         "pk": 479,
         "fields": {
             "hanzi": "骑",
-            "pinyin": "qí"
+            "pinyin": "qí",
+            "hsk": 3
         }
     },
     {
@@ -1444,7 +1624,8 @@
         "pk": 480,
         "fields": {
             "hanzi": "其实",
-            "pinyin": "qí shí"
+            "pinyin": "qí shí",
+            "hsk": 3
         }
     },
     {
@@ -1452,7 +1633,8 @@
         "pk": 481,
         "fields": {
             "hanzi": "其他",
-            "pinyin": "qí tā"
+            "pinyin": "qí tā",
+            "hsk": 3
         }
     },
     {
@@ -1460,7 +1642,8 @@
         "pk": 482,
         "fields": {
             "hanzi": "奇怪",
-            "pinyin": "qí guài"
+            "pinyin": "qí guài",
+            "hsk": 3
         }
     },
     {
@@ -1468,7 +1651,8 @@
         "pk": 483,
         "fields": {
             "hanzi": "铅笔",
-            "pinyin": "qiān bǐ"
+            "pinyin": "qiān bǐ",
+            "hsk": 3
         }
     },
     {
@@ -1476,7 +1660,8 @@
         "pk": 484,
         "fields": {
             "hanzi": "清楚",
-            "pinyin": "qīng chu"
+            "pinyin": "qīng chu",
+            "hsk": 3
         }
     },
     {
@@ -1484,7 +1669,8 @@
         "pk": 485,
         "fields": {
             "hanzi": "秋",
-            "pinyin": "qiū"
+            "pinyin": "qiū",
+            "hsk": 3
         }
     },
     {
@@ -1492,7 +1678,8 @@
         "pk": 486,
         "fields": {
             "hanzi": "裙子",
-            "pinyin": "qún zi"
+            "pinyin": "qún zi",
+            "hsk": 3
         }
     },
     {
@@ -1500,7 +1687,8 @@
         "pk": 487,
         "fields": {
             "hanzi": "然后",
-            "pinyin": "rán hòu"
+            "pinyin": "rán hòu",
+            "hsk": 3
         }
     },
     {
@@ -1508,7 +1696,8 @@
         "pk": 488,
         "fields": {
             "hanzi": "热情",
-            "pinyin": "rè qíng"
+            "pinyin": "rè qíng",
+            "hsk": 3
         }
     },
     {
@@ -1516,7 +1705,8 @@
         "pk": 489,
         "fields": {
             "hanzi": "认为",
-            "pinyin": "rèn wéi"
+            "pinyin": "rèn wéi",
+            "hsk": 3
         }
     },
     {
@@ -1524,7 +1714,8 @@
         "pk": 490,
         "fields": {
             "hanzi": "认真",
-            "pinyin": "rèn zhēn"
+            "pinyin": "rèn zhēn",
+            "hsk": 3
         }
     },
     {
@@ -1532,7 +1723,8 @@
         "pk": 491,
         "fields": {
             "hanzi": "容易",
-            "pinyin": "róng yì"
+            "pinyin": "róng yì",
+            "hsk": 3
         }
     },
     {
@@ -1540,7 +1732,8 @@
         "pk": 492,
         "fields": {
             "hanzi": "如果",
-            "pinyin": "rú guǒ"
+            "pinyin": "rú guǒ",
+            "hsk": 3
         }
     },
     {
@@ -1548,7 +1741,8 @@
         "pk": 493,
         "fields": {
             "hanzi": "伞",
-            "pinyin": "sǎn"
+            "pinyin": "sǎn",
+            "hsk": 3
         }
     },
     {
@@ -1556,7 +1750,8 @@
         "pk": 494,
         "fields": {
             "hanzi": "上网",
-            "pinyin": "shàng wǎng"
+            "pinyin": "shàng wǎng",
+            "hsk": 3
         }
     },
     {
@@ -1564,7 +1759,8 @@
         "pk": 495,
         "fields": {
             "hanzi": "生气",
-            "pinyin": "shēng qì"
+            "pinyin": "shēng qì",
+            "hsk": 3
         }
     },
     {
@@ -1572,7 +1768,8 @@
         "pk": 496,
         "fields": {
             "hanzi": "声音",
-            "pinyin": "shēng yīn"
+            "pinyin": "shēng yīn",
+            "hsk": 3
         }
     },
     {
@@ -1580,7 +1777,8 @@
         "pk": 497,
         "fields": {
             "hanzi": "使",
-            "pinyin": "shǐ"
+            "pinyin": "shǐ",
+            "hsk": 3
         }
     },
     {
@@ -1588,7 +1786,8 @@
         "pk": 498,
         "fields": {
             "hanzi": "世界",
-            "pinyin": "shì jiè"
+            "pinyin": "shì jiè",
+            "hsk": 3
         }
     },
     {
@@ -1596,7 +1795,8 @@
         "pk": 499,
         "fields": {
             "hanzi": "瘦",
-            "pinyin": "shòu"
+            "pinyin": "shòu",
+            "hsk": 3
         }
     },
     {
@@ -1604,7 +1804,8 @@
         "pk": 500,
         "fields": {
             "hanzi": "舒服",
-            "pinyin": "shū fu"
+            "pinyin": "shū fu",
+            "hsk": 3
         }
     },
     {
@@ -1612,7 +1813,8 @@
         "pk": 501,
         "fields": {
             "hanzi": "叔叔",
-            "pinyin": "shū shu"
+            "pinyin": "shū shu",
+            "hsk": 3
         }
     },
     {
@@ -1620,7 +1822,8 @@
         "pk": 502,
         "fields": {
             "hanzi": "树",
-            "pinyin": "shù"
+            "pinyin": "shù",
+            "hsk": 3
         }
     },
     {
@@ -1628,7 +1831,8 @@
         "pk": 503,
         "fields": {
             "hanzi": "数学",
-            "pinyin": "shù xué"
+            "pinyin": "shù xué",
+            "hsk": 3
         }
     },
     {
@@ -1636,7 +1840,8 @@
         "pk": 504,
         "fields": {
             "hanzi": "刷",
-            "pinyin": "shuā"
+            "pinyin": "shuā",
+            "hsk": 3
         }
     },
     {
@@ -1644,7 +1849,8 @@
         "pk": 505,
         "fields": {
             "hanzi": "双",
-            "pinyin": "shuāng"
+            "pinyin": "shuāng",
+            "hsk": 3
         }
     },
     {
@@ -1652,7 +1858,8 @@
         "pk": 506,
         "fields": {
             "hanzi": "水平",
-            "pinyin": "shuǐ píng"
+            "pinyin": "shuǐ píng",
+            "hsk": 3
         }
     },
     {
@@ -1660,7 +1867,8 @@
         "pk": 507,
         "fields": {
             "hanzi": "司机",
-            "pinyin": "sī jī"
+            "pinyin": "sī jī",
+            "hsk": 3
         }
     },
     {
@@ -1668,7 +1876,8 @@
         "pk": 508,
         "fields": {
             "hanzi": "虽然",
-            "pinyin": "suī rán"
+            "pinyin": "suī rán",
+            "hsk": 3
         }
     },
     {
@@ -1676,7 +1885,8 @@
         "pk": 509,
         "fields": {
             "hanzi": "太阳",
-            "pinyin": "tài yáng"
+            "pinyin": "tài yáng",
+            "hsk": 3
         }
     },
     {
@@ -1684,7 +1894,8 @@
         "pk": 510,
         "fields": {
             "hanzi": "糖",
-            "pinyin": "táng"
+            "pinyin": "táng",
+            "hsk": 3
         }
     },
     {
@@ -1692,7 +1903,8 @@
         "pk": 511,
         "fields": {
             "hanzi": "特别",
-            "pinyin": "tè bié"
+            "pinyin": "tè bié",
+            "hsk": 3
         }
     },
     {
@@ -1700,7 +1912,8 @@
         "pk": 512,
         "fields": {
             "hanzi": "疼",
-            "pinyin": "téng"
+            "pinyin": "téng",
+            "hsk": 3
         }
     },
     {
@@ -1708,7 +1921,8 @@
         "pk": 513,
         "fields": {
             "hanzi": "提高",
-            "pinyin": "tí gāo"
+            "pinyin": "tí gāo",
+            "hsk": 3
         }
     },
     {
@@ -1716,7 +1930,8 @@
         "pk": 514,
         "fields": {
             "hanzi": "体育",
-            "pinyin": "tǐ yù"
+            "pinyin": "tǐ yù",
+            "hsk": 3
         }
     },
     {
@@ -1724,7 +1939,8 @@
         "pk": 515,
         "fields": {
             "hanzi": "甜",
-            "pinyin": "tián"
+            "pinyin": "tián",
+            "hsk": 3
         }
     },
     {
@@ -1732,7 +1948,8 @@
         "pk": 516,
         "fields": {
             "hanzi": "条",
-            "pinyin": "tiáo"
+            "pinyin": "tiáo",
+            "hsk": 3
         }
     },
     {
@@ -1740,7 +1957,8 @@
         "pk": 517,
         "fields": {
             "hanzi": "同事",
-            "pinyin": "tóng shì"
+            "pinyin": "tóng shì",
+            "hsk": 3
         }
     },
     {
@@ -1748,7 +1966,8 @@
         "pk": 518,
         "fields": {
             "hanzi": "同意",
-            "pinyin": "tóng yì"
+            "pinyin": "tóng yì",
+            "hsk": 3
         }
     },
     {
@@ -1756,7 +1975,8 @@
         "pk": 519,
         "fields": {
             "hanzi": "头发",
-            "pinyin": "tóu fa"
+            "pinyin": "tóu fa",
+            "hsk": 3
         }
     },
     {
@@ -1764,7 +1984,8 @@
         "pk": 520,
         "fields": {
             "hanzi": "突然",
-            "pinyin": "tū rán"
+            "pinyin": "tū rán",
+            "hsk": 3
         }
     },
     {
@@ -1772,7 +1993,8 @@
         "pk": 521,
         "fields": {
             "hanzi": "图书馆",
-            "pinyin": "tú shū guǎn"
+            "pinyin": "tú shū guǎn",
+            "hsk": 3
         }
     },
     {
@@ -1780,7 +2002,8 @@
         "pk": 522,
         "fields": {
             "hanzi": "腿",
-            "pinyin": "tuǐ"
+            "pinyin": "tuǐ",
+            "hsk": 3
         }
     },
     {
@@ -1788,7 +2011,8 @@
         "pk": 523,
         "fields": {
             "hanzi": "完成",
-            "pinyin": "wán chéng"
+            "pinyin": "wán chéng",
+            "hsk": 3
         }
     },
     {
@@ -1796,7 +2020,8 @@
         "pk": 524,
         "fields": {
             "hanzi": "碗",
-            "pinyin": "wǎn"
+            "pinyin": "wǎn",
+            "hsk": 3
         }
     },
     {
@@ -1804,7 +2029,8 @@
         "pk": 525,
         "fields": {
             "hanzi": "万",
-            "pinyin": "wàn"
+            "pinyin": "wàn",
+            "hsk": 3
         }
     },
     {
@@ -1812,7 +2038,8 @@
         "pk": 526,
         "fields": {
             "hanzi": "忘记",
-            "pinyin": "wàng jì"
+            "pinyin": "wàng jì",
+            "hsk": 3
         }
     },
     {
@@ -1820,7 +2047,8 @@
         "pk": 527,
         "fields": {
             "hanzi": "为了",
-            "pinyin": "wèi le"
+            "pinyin": "wèi le",
+            "hsk": 3
         }
     },
     {
@@ -1828,7 +2056,8 @@
         "pk": 528,
         "fields": {
             "hanzi": "为什么",
-            "pinyin": "wèi shén me"
+            "pinyin": "wèi shén me",
+            "hsk": 3
         }
     },
     {
@@ -1836,7 +2065,8 @@
         "pk": 529,
         "fields": {
             "hanzi": "位",
-            "pinyin": "wèi"
+            "pinyin": "wèi",
+            "hsk": 3
         }
     },
     {
@@ -1844,7 +2074,8 @@
         "pk": 530,
         "fields": {
             "hanzi": "文化",
-            "pinyin": "wén huà"
+            "pinyin": "wén huà",
+            "hsk": 3
         }
     },
     {
@@ -1852,7 +2083,8 @@
         "pk": 531,
         "fields": {
             "hanzi": "西",
-            "pinyin": "xī"
+            "pinyin": "xī",
+            "hsk": 3
         }
     },
     {
@@ -1860,7 +2092,8 @@
         "pk": 532,
         "fields": {
             "hanzi": "习惯",
-            "pinyin": "xí guàn"
+            "pinyin": "xí guàn",
+            "hsk": 3
         }
     },
     {
@@ -1868,7 +2101,8 @@
         "pk": 533,
         "fields": {
             "hanzi": "洗手间",
-            "pinyin": "xǐ shǒu jiān"
+            "pinyin": "xǐ shǒu jiān",
+            "hsk": 3
         }
     },
     {
@@ -1876,7 +2110,8 @@
         "pk": 534,
         "fields": {
             "hanzi": "洗澡",
-            "pinyin": "xǐ zǎo"
+            "pinyin": "xǐ zǎo",
+            "hsk": 3
         }
     },
     {
@@ -1884,7 +2119,8 @@
         "pk": 535,
         "fields": {
             "hanzi": "夏",
-            "pinyin": "xià"
+            "pinyin": "xià",
+            "hsk": 3
         }
     },
     {
@@ -1892,7 +2128,8 @@
         "pk": 536,
         "fields": {
             "hanzi": "先",
-            "pinyin": "xiān"
+            "pinyin": "xiān",
+            "hsk": 3
         }
     },
     {
@@ -1900,7 +2137,8 @@
         "pk": 537,
         "fields": {
             "hanzi": "香蕉",
-            "pinyin": "xiāng jiāo"
+            "pinyin": "xiāng jiāo",
+            "hsk": 3
         }
     },
     {
@@ -1908,7 +2146,8 @@
         "pk": 538,
         "fields": {
             "hanzi": "相同",
-            "pinyin": "xiāng tóng"
+            "pinyin": "xiāng tóng",
+            "hsk": 3
         }
     },
     {
@@ -1916,7 +2155,8 @@
         "pk": 539,
         "fields": {
             "hanzi": "相信",
-            "pinyin": "xiāng xìn"
+            "pinyin": "xiāng xìn",
+            "hsk": 3
         }
     },
     {
@@ -1924,7 +2164,8 @@
         "pk": 540,
         "fields": {
             "hanzi": "像",
-            "pinyin": "xiàng"
+            "pinyin": "xiàng",
+            "hsk": 3
         }
     },
     {
@@ -1932,7 +2173,8 @@
         "pk": 541,
         "fields": {
             "hanzi": "小心",
-            "pinyin": "xiǎo xīn"
+            "pinyin": "xiǎo xīn",
+            "hsk": 3
         }
     },
     {
@@ -1940,7 +2182,8 @@
         "pk": 542,
         "fields": {
             "hanzi": "校长",
-            "pinyin": "xiào zhǎng"
+            "pinyin": "xiào zhǎng",
+            "hsk": 3
         }
     },
     {
@@ -1948,7 +2191,8 @@
         "pk": 543,
         "fields": {
             "hanzi": "鞋",
-            "pinyin": "xié"
+            "pinyin": "xié",
+            "hsk": 3
         }
     },
     {
@@ -1956,7 +2200,8 @@
         "pk": 544,
         "fields": {
             "hanzi": "新闻",
-            "pinyin": "xīn wén"
+            "pinyin": "xīn wén",
+            "hsk": 3
         }
     },
     {
@@ -1964,7 +2209,8 @@
         "pk": 545,
         "fields": {
             "hanzi": "新鲜",
-            "pinyin": "xīn xiān"
+            "pinyin": "xīn xiān",
+            "hsk": 3
         }
     },
     {
@@ -1972,7 +2218,8 @@
         "pk": 546,
         "fields": {
             "hanzi": "信",
-            "pinyin": "xìn"
+            "pinyin": "xìn",
+            "hsk": 3
         }
     },
     {
@@ -1980,7 +2227,8 @@
         "pk": 547,
         "fields": {
             "hanzi": "行李箱",
-            "pinyin": "xíng li xiāng"
+            "pinyin": "xíng li xiāng",
+            "hsk": 3
         }
     },
     {
@@ -1988,7 +2236,8 @@
         "pk": 548,
         "fields": {
             "hanzi": "兴趣",
-            "pinyin": "xìng qù"
+            "pinyin": "xìng qù",
+            "hsk": 3
         }
     },
     {
@@ -1996,7 +2245,8 @@
         "pk": 549,
         "fields": {
             "hanzi": "熊猫",
-            "pinyin": "xióng māo"
+            "pinyin": "xióng māo",
+            "hsk": 3
         }
     },
     {
@@ -2004,7 +2254,8 @@
         "pk": 550,
         "fields": {
             "hanzi": "需要",
-            "pinyin": "xū yào"
+            "pinyin": "xū yào",
+            "hsk": 3
         }
     },
     {
@@ -2012,7 +2263,8 @@
         "pk": 551,
         "fields": {
             "hanzi": "选择",
-            "pinyin": "xuǎn zé"
+            "pinyin": "xuǎn zé",
+            "hsk": 3
         }
     },
     {
@@ -2020,7 +2272,8 @@
         "pk": 552,
         "fields": {
             "hanzi": "眼镜",
-            "pinyin": "yǎn jìng"
+            "pinyin": "yǎn jìng",
+            "hsk": 3
         }
     },
     {
@@ -2028,7 +2281,8 @@
         "pk": 553,
         "fields": {
             "hanzi": "要求",
-            "pinyin": "yāo qiú"
+            "pinyin": "yāo qiú",
+            "hsk": 3
         }
     },
     {
@@ -2036,7 +2290,8 @@
         "pk": 554,
         "fields": {
             "hanzi": "爷爷",
-            "pinyin": "yé ye"
+            "pinyin": "yé ye",
+            "hsk": 3
         }
     },
     {
@@ -2044,7 +2299,8 @@
         "pk": 555,
         "fields": {
             "hanzi": "一定",
-            "pinyin": "yī dìng"
+            "pinyin": "yī dìng",
+            "hsk": 3
         }
     },
     {
@@ -2052,7 +2308,8 @@
         "pk": 556,
         "fields": {
             "hanzi": "一共",
-            "pinyin": "yī gòng"
+            "pinyin": "yī gòng",
+            "hsk": 3
         }
     },
     {
@@ -2060,7 +2317,8 @@
         "pk": 557,
         "fields": {
             "hanzi": "一会儿",
-            "pinyin": "yī huì r"
+            "pinyin": "yī huì r",
+            "hsk": 3
         }
     },
     {
@@ -2068,7 +2326,8 @@
         "pk": 558,
         "fields": {
             "hanzi": "一样",
-            "pinyin": "yī yàng"
+            "pinyin": "yī yàng",
+            "hsk": 3
         }
     },
     {
@@ -2076,7 +2335,8 @@
         "pk": 559,
         "fields": {
             "hanzi": "以后",
-            "pinyin": "yǐ hòu"
+            "pinyin": "yǐ hòu",
+            "hsk": 3
         }
     },
     {
@@ -2084,7 +2344,8 @@
         "pk": 560,
         "fields": {
             "hanzi": "以前",
-            "pinyin": "yǐ qián"
+            "pinyin": "yǐ qián",
+            "hsk": 3
         }
     },
     {
@@ -2092,7 +2353,8 @@
         "pk": 561,
         "fields": {
             "hanzi": "以为",
-            "pinyin": "yǐ wéi"
+            "pinyin": "yǐ wéi",
+            "hsk": 3
         }
     },
     {
@@ -2100,7 +2362,8 @@
         "pk": 562,
         "fields": {
             "hanzi": "一般",
-            "pinyin": "yī bān"
+            "pinyin": "yī bān",
+            "hsk": 3
         }
     },
     {
@@ -2108,7 +2371,8 @@
         "pk": 563,
         "fields": {
             "hanzi": "一边",
-            "pinyin": "yī biān"
+            "pinyin": "yī biān",
+            "hsk": 3
         }
     },
     {
@@ -2116,7 +2380,8 @@
         "pk": 564,
         "fields": {
             "hanzi": "一直",
-            "pinyin": "yī zhí"
+            "pinyin": "yī zhí",
+            "hsk": 3
         }
     },
     {
@@ -2124,7 +2389,8 @@
         "pk": 565,
         "fields": {
             "hanzi": "音乐",
-            "pinyin": "yīn yuè"
+            "pinyin": "yīn yuè",
+            "hsk": 3
         }
     },
     {
@@ -2132,7 +2398,8 @@
         "pk": 566,
         "fields": {
             "hanzi": "银行",
-            "pinyin": "yín háng"
+            "pinyin": "yín háng",
+            "hsk": 3
         }
     },
     {
@@ -2140,7 +2407,8 @@
         "pk": 567,
         "fields": {
             "hanzi": "应该",
-            "pinyin": "yīng gāi"
+            "pinyin": "yīng gāi",
+            "hsk": 3
         }
     },
     {
@@ -2148,7 +2416,8 @@
         "pk": 568,
         "fields": {
             "hanzi": "影响",
-            "pinyin": "yǐng xiǎng"
+            "pinyin": "yǐng xiǎng",
+            "hsk": 3
         }
     },
     {
@@ -2156,7 +2425,8 @@
         "pk": 569,
         "fields": {
             "hanzi": "用",
-            "pinyin": "yòng"
+            "pinyin": "yòng",
+            "hsk": 3
         }
     },
     {
@@ -2164,7 +2434,8 @@
         "pk": 570,
         "fields": {
             "hanzi": "游戏",
-            "pinyin": "yóu xì"
+            "pinyin": "yóu xì",
+            "hsk": 3
         }
     },
     {
@@ -2172,7 +2443,8 @@
         "pk": 571,
         "fields": {
             "hanzi": "有名",
-            "pinyin": "yǒu míng"
+            "pinyin": "yǒu míng",
+            "hsk": 3
         }
     },
     {
@@ -2180,7 +2452,8 @@
         "pk": 572,
         "fields": {
             "hanzi": "又",
-            "pinyin": "yòu"
+            "pinyin": "yòu",
+            "hsk": 3
         }
     },
     {
@@ -2188,7 +2461,8 @@
         "pk": 573,
         "fields": {
             "hanzi": "遇到",
-            "pinyin": "yù dào"
+            "pinyin": "yù dào",
+            "hsk": 3
         }
     },
     {
@@ -2196,7 +2470,8 @@
         "pk": 574,
         "fields": {
             "hanzi": "愿意",
-            "pinyin": "yuàn yì"
+            "pinyin": "yuàn yì",
+            "hsk": 3
         }
     },
     {
@@ -2204,7 +2479,8 @@
         "pk": 575,
         "fields": {
             "hanzi": "越",
-            "pinyin": "yuè"
+            "pinyin": "yuè",
+            "hsk": 3
         }
     },
     {
@@ -2212,7 +2488,8 @@
         "pk": 576,
         "fields": {
             "hanzi": "月亮",
-            "pinyin": "yuè liang"
+            "pinyin": "yuè liang",
+            "hsk": 3
         }
     },
     {
@@ -2220,7 +2497,8 @@
         "pk": 577,
         "fields": {
             "hanzi": "云",
-            "pinyin": "yún"
+            "pinyin": "yún",
+            "hsk": 3
         }
     },
     {
@@ -2228,7 +2506,8 @@
         "pk": 578,
         "fields": {
             "hanzi": "站",
-            "pinyin": "zhàn"
+            "pinyin": "zhàn",
+            "hsk": 3
         }
     },
     {
@@ -2236,7 +2515,8 @@
         "pk": 579,
         "fields": {
             "hanzi": "着急",
-            "pinyin": "zháo jí"
+            "pinyin": "zháo jí",
+            "hsk": 3
         }
     },
     {
@@ -2244,7 +2524,8 @@
         "pk": 580,
         "fields": {
             "hanzi": "照顾",
-            "pinyin": "zhào gu"
+            "pinyin": "zhào gu",
+            "hsk": 3
         }
     },
     {
@@ -2252,7 +2533,8 @@
         "pk": 581,
         "fields": {
             "hanzi": "照片",
-            "pinyin": "zhào piàn"
+            "pinyin": "zhào piàn",
+            "hsk": 3
         }
     },
     {
@@ -2260,7 +2542,8 @@
         "pk": 582,
         "fields": {
             "hanzi": "照相机",
-            "pinyin": "zhào xiàng jī"
+            "pinyin": "zhào xiàng jī",
+            "hsk": 3
         }
     },
     {
@@ -2268,7 +2551,8 @@
         "pk": 583,
         "fields": {
             "hanzi": "只",
-            "pinyin": "zhī"
+            "pinyin": "zhī",
+            "hsk": 3
         }
     },
     {
@@ -2276,7 +2560,8 @@
         "pk": 584,
         "fields": {
             "hanzi": "只",
-            "pinyin": "zhǐ"
+            "pinyin": "zhǐ",
+            "hsk": 3
         }
     },
     {
@@ -2284,7 +2569,8 @@
         "pk": 585,
         "fields": {
             "hanzi": "终于",
-            "pinyin": "zhōng yú"
+            "pinyin": "zhōng yú",
+            "hsk": 3
         }
     },
     {
@@ -2292,7 +2578,8 @@
         "pk": 586,
         "fields": {
             "hanzi": "中间",
-            "pinyin": "zhōng jiān"
+            "pinyin": "zhōng jiān",
+            "hsk": 3
         }
     },
     {
@@ -2300,7 +2587,8 @@
         "pk": 587,
         "fields": {
             "hanzi": "种",
-            "pinyin": "zhǒng"
+            "pinyin": "zhǒng",
+            "hsk": 3
         }
     },
     {
@@ -2308,7 +2596,8 @@
         "pk": 588,
         "fields": {
             "hanzi": "重要",
-            "pinyin": "zhòng yào"
+            "pinyin": "zhòng yào",
+            "hsk": 3
         }
     },
     {
@@ -2316,7 +2605,8 @@
         "pk": 589,
         "fields": {
             "hanzi": "周末",
-            "pinyin": "zhōu mò"
+            "pinyin": "zhōu mò",
+            "hsk": 3
         }
     },
     {
@@ -2324,7 +2614,8 @@
         "pk": 590,
         "fields": {
             "hanzi": "主要",
-            "pinyin": "zhǔ yào"
+            "pinyin": "zhǔ yào",
+            "hsk": 3
         }
     },
     {
@@ -2332,7 +2623,8 @@
         "pk": 591,
         "fields": {
             "hanzi": "祝",
-            "pinyin": "zhù"
+            "pinyin": "zhù",
+            "hsk": 3
         }
     },
     {
@@ -2340,7 +2632,8 @@
         "pk": 592,
         "fields": {
             "hanzi": "注意",
-            "pinyin": "zhù yì"
+            "pinyin": "zhù yì",
+            "hsk": 3
         }
     },
     {
@@ -2348,7 +2641,8 @@
         "pk": 593,
         "fields": {
             "hanzi": "字典",
-            "pinyin": "zì diǎn"
+            "pinyin": "zì diǎn",
+            "hsk": 3
         }
     },
     {
@@ -2356,7 +2650,8 @@
         "pk": 594,
         "fields": {
             "hanzi": "自己",
-            "pinyin": "zì jǐ"
+            "pinyin": "zì jǐ",
+            "hsk": 3
         }
     },
     {
@@ -2364,7 +2659,8 @@
         "pk": 595,
         "fields": {
             "hanzi": "总是",
-            "pinyin": "zǒng shì"
+            "pinyin": "zǒng shì",
+            "hsk": 3
         }
     },
     {
@@ -2372,7 +2668,8 @@
         "pk": 596,
         "fields": {
             "hanzi": "最近",
-            "pinyin": "zuì jìn"
+            "pinyin": "zuì jìn",
+            "hsk": 3
         }
     },
     {
@@ -2380,7 +2677,8 @@
         "pk": 597,
         "fields": {
             "hanzi": "作业",
-            "pinyin": "zuò yè"
+            "pinyin": "zuò yè",
+            "hsk": 3
         }
     },
     {
@@ -2388,7 +2686,8 @@
         "pk": 598,
         "fields": {
             "hanzi": "作用",
-            "pinyin": "zuò yòng"
+            "pinyin": "zuò yòng",
+            "hsk": 3
         }
     }
 ]

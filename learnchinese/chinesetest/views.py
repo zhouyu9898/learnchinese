@@ -8,9 +8,9 @@ import unidecode
 def index(request):
     return render(request, 'index.html')
 
-def test(request):
-    words = Word.objects.all()
-    context = {'words_list': list(words)}
+def test(request, hsk):
+    words = Word.objects.filter(hsk=hsk)
+    context = {'words_list': words}
     return render(request, 'test.html', context)
 
 def check(request):
