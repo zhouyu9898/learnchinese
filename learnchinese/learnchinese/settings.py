@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'testyourchinese.urls'
+ROOT_URLCONF = 'learnchinese.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'testyourchinese.wsgi.application'
+WSGI_APPLICATION = 'learnchinese.wsgi.application'
 
 
 # Database
@@ -76,12 +76,8 @@ WSGI_APPLICATION = 'testyourchinese.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'learnchinese',
-        'USER': 'zhouyu9898',
-        'PASSWORD': 'rabaculos33',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'chinesetest.db',
     }
 }
 
