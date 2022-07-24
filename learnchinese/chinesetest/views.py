@@ -37,6 +37,7 @@ def reset(request, hsk):
     return HttpResponseRedirect(reverse('chinesetest:test', args=(hsk,)))
 
 def random(request, hsk):
+    #TODO: look at django forms to focus on input by default
     word = Word.objects.all().filter(hsk=hsk).filter(solved=False).order_by('?')[0]
 
     context = {'words_list': [word], 'hsk': hsk, 'full_test':False}
