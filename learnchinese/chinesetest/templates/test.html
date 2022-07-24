@@ -1,9 +1,12 @@
 {% extends "base.html" %}
 
 {% block content %}
-	<h1>Chinese HSK test</h1>
-	<form action="{% url 'chinesetest:reset' %}">
-		<input type="submit" value="reset">
+	<h1>Chinese HSK {{ hsk }} test</h1>
+	<form action="{% url 'chinesetest:reset' hsk %}">
+		<input type="submit" value="Reset" name="reset">
+	</form>
+    <form action="{% url 'chinesetest:random' hsk %}">
+		<input type="submit" value="Random" name="random">
 	</form>
 	<div id="word_list">
 		<ul>
@@ -17,12 +20,22 @@
 						{% csrf_token %}
 						<tr>
 							<td>{{ word.hanzi }}</td>
-							<td><input id="text_input" type="text" name="pinyin"></td>
-							<td><input type="hidden" value="{{ word.id }}" name="word_id"/></td>
+                            {% if word.solved %}
+                                <td>
+                                    <span class="checkmark">
+                                        <div class="checkmark_stem"></div>
+                                        <div class="checkmark_kick"></div>
+                                    </span>
+                                </td>
+                            {% else %}
+                                <td><input id="text_input" type="text" name="pinyin"></td>
+                                <td><input type="hidden" value="{{ word.id }}" name="word_id"/></td>
+                            {% endif %}
 						</tr>
-				{% endfor %}
+				    {% endfor %}
 				</table>
 				<input type="submit" form="words_form" value="check">
+                <input type="hidden" value="{{ full_test }}" name="full_test"/>
 			</form>
 		</ul>
 	</div>

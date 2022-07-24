@@ -1,5 +1,5 @@
 body{
-	background-color: darkseagreen;
+	background-color: #FFD5AA;
 	margin: 5em 5em;
 }
 
@@ -10,4 +10,31 @@ table{
 #text_input{
 	/* width: 50%; */
 	margin-left: 2em;
+}
+
+.checkmark {
+    display:inline-block;
+    width: 22px;
+    height:22px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.checkmark_stem {
+    position: absolute;
+    width:3px;
+    height:9px;
+    background-color:green;
+    left:11px;
+    top:6px;
+}
+
+.checkmark_kick {
+    position: absolute;
+    width:3px;
+    height:3px;
+    background-color:green;
+    left:8px;
+    top:12px;
 }
