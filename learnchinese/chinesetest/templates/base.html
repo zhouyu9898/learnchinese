@@ -10,7 +10,10 @@
 <body>
     <div id="sidebar">
         {% block sidebar %}
-			<a href="/">Home</a>
+        <ul class="sidebar">
+            <li class="sidebar"><a class="active" href="/">Home</a></li>
+            <li class="sidebar"><a href="/">About</a></li>
+        </ul>
         {% endblock %}
     </div>
 

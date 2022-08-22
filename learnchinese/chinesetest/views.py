@@ -1,6 +1,8 @@
 from django.shortcuts import render, reverse
 from django.http import HttpResponse, HttpResponseRedirect
+from django.db.models.query import EmptyQuerySet
 from .models import Word
+from .forms import TestForm
 import random
 import unidecode
 
@@ -30,6 +32,12 @@ def check(request):
     else:
         return HttpResponseRedirect(reverse('chinesetest:random', args=(w.hsk,)))
 
+def check_form(request):
+    if request.method == 'POST':
+        form = TestForm(request.POST)
+        if form.is_valid():
+            print()
+
 
 def reset(request, hsk):
     Word.objects.all().filter(hsk=hsk).update(solved=False)
@@ -38,8 +46,13 @@ def reset(request, hsk):
 
 def random(request, hsk):
     #TODO: look at django forms to focus on input by default
-    word = Word.objects.all().filter(hsk=hsk).filter(solved=False).order_by('?')[0]
-
-    context = {'words_list': [word], 'hsk': hsk, 'full_test':False}
+    
+    unsolved_words = Word.objects.all().filter(hsk=hsk).filter(solved=False).order_by('?')
+    if not unsolved_words:
+        words = Word.objects.filter(hsk=hsk)
+        context = {'words_list': words, 'hsk': hsk, 'full_test':True}
+    else:
+        word = unsolved_words[0]
+        context = {'words_list': [word], 'hsk': hsk, 'full_test':False}
 
     return render(request, 'test.html', context)

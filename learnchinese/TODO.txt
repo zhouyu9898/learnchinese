@@ -1,0 +1,4 @@
+-TODO: look at django forms to focus on input by default
+-BUG (OK): random button crashes when all words are solved (from one single hsk)
+-TODO: horizontal home bar like this https://www.w3schools.com/css/css_navbar_horizontal.asp
+-TODO: deploy app on heroku

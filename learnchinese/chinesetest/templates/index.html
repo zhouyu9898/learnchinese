@@ -4,7 +4,7 @@
     <h1>Homepage</h1>
 	<ul>
         {% for hsk in hsks %}
-            <li><a href="{% url 'chinesetest:test' hsk %}">HSK {{ hsk }}</a></li>
+            <li><a href="{% url 'chinesetest:test' hsk %}" class="button">HSK {{ hsk }}</a></li>
         {% endfor %}
 	</ul>
 {% endblock content %}

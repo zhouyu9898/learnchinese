@@ -1,16 +1,68 @@
 body{
 	background-color: #FFD5AA;
-	margin: 5em 5em;
+	/* margin: 5em 5em; */
+    margin-left: 0;
+}
+
+h1{
+    margin: 2em 1em;
 }
 
 table{
 	font-size: 1.5em;
 }
 
+.button{
+    margin-left: 1em;
+    background-color: antiquewhite;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/********************* SIDEBAR *********************/
+li.sidebar{
+    float: left;
+    border-right:1px solid #bbb;
+}
+/* li.sidebar:last-child {
+  border-right: none;
+} */
+li.sidebar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li.sidebar a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #04AA6D;
+}
+ul.sidebar {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+/********************* TEXT SIZE *********************/
 #text_input{
 	/* width: 50%; */
 	margin-left: 2em;
 }
+
+
+/********************* CHECKMARK ICON *********************/
+
 
 .checkmark {
     display:inline-block;
@@ -19,6 +71,7 @@ table{
     -ms-transform: rotate(45deg); /* IE 9 */
     -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
     transform: rotate(45deg);
+    margin-left: 1em;
 }
 
 .checkmark_stem {
