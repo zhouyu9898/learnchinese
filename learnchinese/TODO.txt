@@ -4,5 +4,8 @@
 -TODO 20/08/22: deploy app on heroku
 -TODO 25/08/22: create user and save history
 -TODO 25/08/22: "X/150 LEFT" or "COMPLETED" on top of each hsk page
+-TODO 25/08/22: "X/150 LEFT" or "COMPLETED" on homepage next to each hsk level
 -TODO 25/08/22: add word meaning column
 -TODO 25/08/22: show/hide word meaning column, like a hint
+-TODO 25/08/22: add about page
+-TODO 25/08/22: add contact page
