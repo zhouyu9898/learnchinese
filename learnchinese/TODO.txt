@@ -1,4 +1,8 @@
--TODO: look at django forms to focus on input by default
--BUG (OK): random button crashes when all words are solved (from one single hsk)
--TODO: horizontal home bar like this https://www.w3schools.com/css/css_navbar_horizontal.asp
--TODO: deploy app on heroku
+-TODO 11/08/22: look at django forms to focus on input by default
+-BUG 12/08/22 (OK 14/08/22): random button crashes when all words are solved (from one single hsk)
+-TODO 20/08/22 (OK 23/08/22): horizontal home bar like this https://www.w3schools.com/css/css_navbar_horizontal.asp
+-TODO 20/08/22: deploy app on heroku
+-TODO 25/08/22: create user and save history
+-TODO 25/08/22: "X/150 LEFT" or "COMPLETED" on top of each hsk page
+-TODO 25/08/22: add word meaning column
+-TODO 25/08/22: show/hide word meaning column, like a hint
