@@ -2,12 +2,24 @@
 
 {% block content %}
 	<h1>Chinese HSK {{ hsk }} test</h1>
-	<form action="{% url 'chinesetest:reset' hsk %}">
-		<input type="submit" value="Reset" name="reset">
-	</form>
-    <form action="{% url 'chinesetest:random' hsk %}">
-		<input type="submit" value="Random" name="random">
-	</form>
+
+    <div id="pre_test">
+        <form action="{% url 'chinesetest:reset' hsk %}">
+            <input type="submit" value="Reset" name="reset">
+        </form>
+        <form action="{% url 'chinesetest:random' hsk %}">
+            <input type="submit" value="Random" name="random">
+        </form>
+
+        <p>
+            {% if solved_count == total_count %}
+                COMPLETED
+            {% else %}
+                {{ solved_count }} / {{ total_count}}
+            {% endif %}
+        </p>
+    </div>
+
 	<div id="word_list">
 		<ul>
 			<form action="{% url 'chinesetest:check' %}" method="POST" autocomplete="off" id="words_form">
