@@ -1,5 +1,5 @@
 body{
-	background-color: #FFD5AA;
+	background-color: white;
 	/* margin: 5em 5em; */
     margin-left: 0;
 }
@@ -27,9 +27,6 @@ li.sidebar{
     float: left;
     border-right:1px solid #bbb;
 }
-/* li.sidebar:last-child {
-  border-right: none;
-} */
 li.sidebar a {
   display: block;
   color: white;
@@ -38,20 +35,41 @@ li.sidebar a {
   text-decoration: none;
 }
 li.sidebar a:hover:not(.active) {
-  background-color: #111;
+  background-color: rgb(104, 0, 0);
 }
 .active {
-  background-color: #04AA6D;
+  background-color: #ff5656;
 }
 ul.sidebar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(159, 0, 0);
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 10;
+}
+
+/********************* HSK BUTTON *********************/
+ul.hsk_button {
+}
+
+li.hsk_button a{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+li.hsk_button{
+    width: 15%;
+    border-style: solid;
+    /* border-color: #ff5656; */
+    border-width: thin;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    background-color: rgb(241, 241, 241);
 }
 
 /********************* TEXT SIZE *********************/
@@ -60,10 +78,7 @@ ul.sidebar {
 	margin-left: 2em;
 }
 
-
 /********************* CHECKMARK ICON *********************/
-
-
 .checkmark {
     display:inline-block;
     width: 22px;
@@ -90,4 +105,9 @@ ul.sidebar {
     background-color:green;
     left:8px;
     top:12px;
+}
+
+
+#pre_test{
+    margin-left: 3em;
 }
