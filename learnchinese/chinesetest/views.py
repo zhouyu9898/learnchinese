@@ -8,11 +8,30 @@ import unidecode
 
 
 def index(request):
-    return render(request, 'index.html', {'hsks': [i for i in range(1,7)]})
+    hsks = [i for i in range(1,7)]
+    solved_counts = []
+    total_counts = []
+    for hsk in hsks:
+        words = Word.objects.filter(hsk=hsk)
+        total_counts.append(words.count())
+        solved_counts.append(words.filter(solved=True).count())
+
+    context = {
+        'hsks': zip(hsks, solved_counts, total_counts)
+    }
+
+    return render(request, 'index.html', context)
 
 def test(request, hsk):
     words = Word.objects.filter(hsk=hsk)
-    context = {'words_list': words, 'hsk': hsk, 'full_test': True}
+    solved_count = words.filter(solved=True).count()
+    context = {
+        'words_list': words, 
+        'hsk': hsk, 
+        'full_test': True, 
+        'total_count': words.count(), 
+        'solved_count': solved_count,
+    }
     return render(request, 'test.html', context)
 
 def check(request):
@@ -23,8 +42,6 @@ def check(request):
             w.solved = True
             w.save()
             correct += 1
-
-    print(correct)
 
     full_test = request.POST.get('full_test')
     if full_test == 'True':
@@ -47,12 +64,19 @@ def reset(request, hsk):
 def random(request, hsk):
     #TODO: look at django forms to focus on input by default
     
+    words = Word.objects.filter(hsk=hsk)
     unsolved_words = Word.objects.all().filter(hsk=hsk).filter(solved=False).order_by('?')
     if not unsolved_words:
-        words = Word.objects.filter(hsk=hsk)
         context = {'words_list': words, 'hsk': hsk, 'full_test':True}
     else:
+        solved_count = words.count() - unsolved_words.count()
         word = unsolved_words[0]
-        context = {'words_list': [word], 'hsk': hsk, 'full_test':False}
+        context = {
+            'words_list': [word], 
+            'hsk': hsk, 
+            'full_test': False, 
+            'total_count': words.count(), 
+            'solved_count': solved_count,
+        }
 
     return render(request, 'test.html', context)
