@@ -52,8 +52,10 @@ ul.sidebar {
 }
 
 /********************* HSK BUTTON *********************/
-ul.hsk_button {
+a.hsk_button{
+    /* float: left; */
 }
+
 
 li.hsk_button a{
     display: block;
