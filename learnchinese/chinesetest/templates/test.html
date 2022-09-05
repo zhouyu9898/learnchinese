@@ -27,6 +27,7 @@
 						<tr>
 							<th>Hanzi</th>
 							<th>Pinyin</th>
+                            <th>Meaning</th>
 						</tr>
 					{% for word in words_list %}
 						{% csrf_token %}
@@ -40,9 +41,10 @@
                                     </span>
                                 </td>
                             {% else %}
-                                <td><input id="text_input" type="text" name="pinyin"></td>
+                                <td><input id="text_input" type="text" name="pinyin" autofocus></td>
                                 <td><input type="hidden" value="{{ word.id }}" name="word_id"/></td>
                             {% endif %}
+                            <td>{{ word.meaning }}</td>
 						</tr>
 				    {% endfor %}
 				</table>
