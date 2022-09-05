@@ -1,0 +1,2992 @@
+[
+    {
+        "model": "chinesetest.Word",
+        "pk": 300,
+        "fields": {
+            "hanzi": "阿姨",
+            "pinyin": "ā yí",
+            "hsk": 3,
+            "meaning": "maternal aunt, step-mother, childcare worker, nursemaid, woman of similar age to one's parents (term of address used by child), CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 301,
+        "fields": {
+            "hanzi": "啊",
+            "pinyin": "a",
+            "hsk": 3,
+            "meaning": "modal particle ending sentence, showing affirmation, approval, or consent"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 302,
+        "fields": {
+            "hanzi": "矮",
+            "pinyin": "ǎi",
+            "hsk": 3,
+            "meaning": "low, short (in length)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 303,
+        "fields": {
+            "hanzi": "爱好",
+            "pinyin": "ài hào",
+            "hsk": 3,
+            "meaning": "to like, to take pleasure in, keen on, fond of, interest, hobby, appetite for, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 304,
+        "fields": {
+            "hanzi": "安静",
+            "pinyin": "ān jìng",
+            "hsk": 3,
+            "meaning": "quiet, peaceful, calm"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 305,
+        "fields": {
+            "hanzi": "把",
+            "pinyin": "bǎ",
+            "hsk": 3,
+            "meaning": "to hold, to contain, to grasp, to take hold of, handle, particle marking the following noun as a direct object, classifier for objects with handle, classifier for small objects: handful"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 306,
+        "fields": {
+            "hanzi": "搬",
+            "pinyin": "bān",
+            "hsk": 3,
+            "meaning": "to move, to shift, to remove, to transport, to apply indiscriminately, to copy mechanically"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 307,
+        "fields": {
+            "hanzi": "班",
+            "pinyin": "bān",
+            "hsk": 3,
+            "meaning": "team, class, squad, work shift, ranking, CL:個|个[gè], classifier for groups"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 308,
+        "fields": {
+            "hanzi": "半",
+            "pinyin": "bàn",
+            "hsk": 3,
+            "meaning": "half, semi-, incomplete, (after a number) and a half"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 309,
+        "fields": {
+            "hanzi": "办法",
+            "pinyin": "bàn fǎ",
+            "hsk": 3,
+            "meaning": "means, method, way (of doing sth), CL:條|条, 個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 310,
+        "fields": {
+            "hanzi": "办公室",
+            "pinyin": "bàn gōng shì",
+            "hsk": 3,
+            "meaning": "office, business premises, bureau, CL:間|间[jiān]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 311,
+        "fields": {
+            "hanzi": "帮忙",
+            "pinyin": "bāng máng",
+            "hsk": 3,
+            "meaning": "to help, to lend a hand, to do a favor, to do a good turn"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 312,
+        "fields": {
+            "hanzi": "包",
+            "pinyin": "bāo",
+            "hsk": 3,
+            "meaning": "to cover, to wrap, to hold, to include, to take charge of, to contract (to or for), package, wrapper, container, bag, to hold or embrace, bundle, packet, CL:個|个, 隻|只[zhī]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 313,
+        "fields": {
+            "hanzi": "饱",
+            "pinyin": "bǎo",
+            "hsk": 3,
+            "meaning": "to eat till full, satisfied"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 314,
+        "fields": {
+            "hanzi": "北方",
+            "pinyin": "běi fāng",
+            "hsk": 3,
+            "meaning": "north, the northern part a country, China north of the Yellow River"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 315,
+        "fields": {
+            "hanzi": "被",
+            "pinyin": "bèi",
+            "hsk": 3,
+            "meaning": "quilt, by, (indicates passive-voice clauses), (literary) to cover, to meet with"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 316,
+        "fields": {
+            "hanzi": "鼻子",
+            "pinyin": "bí zi",
+            "hsk": 3,
+            "meaning": "nose, CL:個|个, 隻|只[zhī]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 317,
+        "fields": {
+            "hanzi": "比较",
+            "pinyin": "bǐ jiào",
+            "hsk": 3,
+            "meaning": "to compare, to contrast, comparatively, relatively, quite, comparison"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 318,
+        "fields": {
+            "hanzi": "比赛",
+            "pinyin": "bǐ sài",
+            "hsk": 3,
+            "meaning": "competition (sports etc), match, CL:場|场, 次[cì]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 319,
+        "fields": {
+            "hanzi": "必须",
+            "pinyin": "bì xū",
+            "hsk": 3,
+            "meaning": "to have to, must, compulsory, necessarily"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 320,
+        "fields": {
+            "hanzi": "变化",
+            "pinyin": "biàn huà",
+            "hsk": 3,
+            "meaning": "change, variation, to change, to vary, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 321,
+        "fields": {
+            "hanzi": "表示",
+            "pinyin": "biǎo shì",
+            "hsk": 3,
+            "meaning": "to express, to show, to say, to state, to indicate, to mean"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 322,
+        "fields": {
+            "hanzi": "表演",
+            "pinyin": "biǎo yǎn",
+            "hsk": 3,
+            "meaning": "play, show, performance, exhibition, to perform, to act, to demonstrate, CL:場|场[chǎng]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 323,
+        "fields": {
+            "hanzi": "别人",
+            "pinyin": "bié ren",
+            "hsk": 3,
+            "meaning": "other people, others, other person"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 324,
+        "fields": {
+            "hanzi": "宾馆",
+            "pinyin": "bīn guǎn",
+            "hsk": 3,
+            "meaning": "guesthouse, lodge, hotel, CL:個|个, 家[jiā]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 325,
+        "fields": {
+            "hanzi": "冰箱",
+            "pinyin": "bīng xiāng",
+            "hsk": 3,
+            "meaning": "icebox, freezer cabinet, refrigerator, CL:臺|台, 個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 326,
+        "fields": {
+            "hanzi": "才",
+            "pinyin": "cái",
+            "hsk": 3,
+            "meaning": "a moment ago, just now, (preceded by a clause of condition or reason) not until, (followed by a numerical clause) only"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 327,
+        "fields": {
+            "hanzi": "菜单",
+            "pinyin": "cài dān",
+            "hsk": 3,
+            "meaning": "menu, CL:份, 張|张[zhāng]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 328,
+        "fields": {
+            "hanzi": "参加",
+            "pinyin": "cān jiā",
+            "hsk": 3,
+            "meaning": "to participate, to take part, to join"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 329,
+        "fields": {
+            "hanzi": "草",
+            "pinyin": "cǎo",
+            "hsk": 3,
+            "meaning": "grass, straw, manuscript, draft (of a document), careless, rough, CL:棵, 撮, 株, 根[gēn]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 330,
+        "fields": {
+            "hanzi": "层",
+            "pinyin": "céng",
+            "hsk": 3,
+            "meaning": "layer, stratum, laminated, floor (of a building), storey, classifier for layers, repeated, sheaf (math.)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 331,
+        "fields": {
+            "hanzi": "差",
+            "pinyin": "chà",
+            "hsk": 3,
+            "meaning": "to differ from, to fall short of, lacking, wrong, inferior"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 332,
+        "fields": {
+            "hanzi": "超市",
+            "pinyin": "chāo shì",
+            "hsk": 3,
+            "meaning": "supermarket (abbr.), CL:家[jiā]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 333,
+        "fields": {
+            "hanzi": "衬衫",
+            "pinyin": "chèn shān",
+            "hsk": 3,
+            "meaning": "shirt, blouse, CL:件[jiàn]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 334,
+        "fields": {
+            "hanzi": "成绩",
+            "pinyin": "chéng jì",
+            "hsk": 3,
+            "meaning": "achievement, performance records, grades, CL:項|项, 個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 335,
+        "fields": {
+            "hanzi": "城市",
+            "pinyin": "chéng shì",
+            "hsk": 3,
+            "meaning": "city, town, CL:座[zuò]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 336,
+        "fields": {
+            "hanzi": "迟到",
+            "pinyin": "chí dào",
+            "hsk": 3,
+            "meaning": "to arrive late"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 337,
+        "fields": {
+            "hanzi": "出现",
+            "pinyin": "chū xiàn",
+            "hsk": 3,
+            "meaning": "to appear, to arise, to emerge, to show up"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 338,
+        "fields": {
+            "hanzi": "除了",
+            "pinyin": "chú le",
+            "hsk": 3,
+            "meaning": "besides, apart from (... also...), in addition to, except (for)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 339,
+        "fields": {
+            "hanzi": "厨房",
+            "pinyin": "chú fáng",
+            "hsk": 3,
+            "meaning": "kitchen, CL:間|间[jiān]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 340,
+        "fields": {
+            "hanzi": "春",
+            "pinyin": "chūn",
+            "hsk": 3,
+            "meaning": "spring (time), gay, joyful, youthful, love, lust, life"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 341,
+        "fields": {
+            "hanzi": "词语",
+            "pinyin": "cí yǔ",
+            "hsk": 3,
+            "meaning": "word (general term including monosyllables through to short phrases), term (e.g. technical term), expression"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 342,
+        "fields": {
+            "hanzi": "聪明",
+            "pinyin": "cōng ming",
+            "hsk": 3,
+            "meaning": "acute (of sight and hearing), clever, intelligent, bright, smart"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 343,
+        "fields": {
+            "hanzi": "打扫",
+            "pinyin": "dǎ sǎo",
+            "hsk": 3,
+            "meaning": "to clean, to sweep"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 344,
+        "fields": {
+            "hanzi": "打算",
+            "pinyin": "dǎ suàn",
+            "hsk": 3,
+            "meaning": "to plan, to intend, to calculate, plan, intention, calculation, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 345,
+        "fields": {
+            "hanzi": "带",
+            "pinyin": "dài",
+            "hsk": 3,
+            "meaning": "band, belt, girdle, ribbon, tire, area, zone, region, CL:條|条[tiáo], to wear, to carry, to take along, to bear (i.e. to have), to lead, to bring, to look after, to raise"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 346,
+        "fields": {
+            "hanzi": "担心",
+            "pinyin": "dān xīn",
+            "hsk": 3,
+            "meaning": "anxious, worried, uneasy, to worry, to be anxious"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 347,
+        "fields": {
+            "hanzi": "蛋糕",
+            "pinyin": "dàn gāo",
+            "hsk": 3,
+            "meaning": "cake, CL:塊|块, 個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 348,
+        "fields": {
+            "hanzi": "当然",
+            "pinyin": "dāng rán",
+            "hsk": 3,
+            "meaning": "only natural, as it should be, certainly, of course, without doubt"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 349,
+        "fields": {
+            "hanzi": "地",
+            "pinyin": "de",
+            "hsk": 3,
+            "meaning": "-ly, structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 350,
+        "fields": {
+            "hanzi": "灯",
+            "pinyin": "dēng",
+            "hsk": 3,
+            "meaning": "lamp, light, lantern, CL:盞|盏[zhǎn]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 351,
+        "fields": {
+            "hanzi": "低",
+            "pinyin": "dī",
+            "hsk": 3,
+            "meaning": "low, beneath, to lower (one's head), to let droop, to hang down, to incline"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 352,
+        "fields": {
+            "hanzi": "地方",
+            "pinyin": "dì fang",
+            "hsk": 3,
+            "meaning": "area, place, space, room, territory, CL:處|处, 個|个, 塊|块[kuài]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 353,
+        "fields": {
+            "hanzi": "地铁",
+            "pinyin": "dì tiě",
+            "hsk": 3,
+            "meaning": "subway, metro"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 354,
+        "fields": {
+            "hanzi": "地图",
+            "pinyin": "dì tú",
+            "hsk": 3,
+            "meaning": "map, CL:張|张, 本[běn]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 355,
+        "fields": {
+            "hanzi": "电梯",
+            "pinyin": "diàn tī",
+            "hsk": 3,
+            "meaning": "elevator, escalator, CL:臺|台, 部[bù]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 356,
+        "fields": {
+            "hanzi": "电子",
+            "pinyin": "diàn zǐ",
+            "hsk": 3,
+            "meaning": "electronic, electron (particle physics)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 357,
+        "fields": {
+            "hanzi": "冬",
+            "pinyin": "dōng",
+            "hsk": 3,
+            "meaning": "sound of beating a drum, onomatopoeia for rat-a-tat etc"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 358,
+        "fields": {
+            "hanzi": "东",
+            "pinyin": "dōng",
+            "hsk": 3,
+            "meaning": "east, host (i.e. sitting on east side of guest), landlord"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 359,
+        "fields": {
+            "hanzi": "动物",
+            "pinyin": "dòng wù",
+            "hsk": 3,
+            "meaning": "animal, CL:隻|只, 群, 個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 360,
+        "fields": {
+            "hanzi": "短",
+            "pinyin": "duǎn",
+            "hsk": 3,
+            "meaning": "short or brief, to lack, weak point, fault"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 361,
+        "fields": {
+            "hanzi": "段",
+            "pinyin": "duàn",
+            "hsk": 3,
+            "meaning": "paragraph, section, segment, stage (of a process), classifier for stories, periods of time, lengths of thread etc"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 362,
+        "fields": {
+            "hanzi": "锻炼",
+            "pinyin": "duàn liàn",
+            "hsk": 3,
+            "meaning": "to engage in physical exercise, to work out, to toughen, to temper"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 363,
+        "fields": {
+            "hanzi": "多么",
+            "pinyin": "duō me",
+            "hsk": 3,
+            "meaning": "how (wonderful etc), what (a great idea etc), however (difficult it may be etc)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 364,
+        "fields": {
+            "hanzi": "饿",
+            "pinyin": "è",
+            "hsk": 3,
+            "meaning": "to be hungry, hungry"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 365,
+        "fields": {
+            "hanzi": "而且",
+            "pinyin": "ér qiě",
+            "hsk": 3,
+            "meaning": "(not only ...) but also, moreover, in addition, furthermore"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 366,
+        "fields": {
+            "hanzi": "耳朵",
+            "pinyin": "ěr duo",
+            "hsk": 3,
+            "meaning": "ear, CL:隻|只, 個|个, 對|对[duì]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 367,
+        "fields": {
+            "hanzi": "发烧",
+            "pinyin": "fā shāo",
+            "hsk": 3,
+            "meaning": "to have a high temperature (from illness), to have a fever"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 368,
+        "fields": {
+            "hanzi": "发现",
+            "pinyin": "fā xiàn",
+            "hsk": 3,
+            "meaning": "to find, to discover"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 369,
+        "fields": {
+            "hanzi": "方便",
+            "pinyin": "fāng biàn",
+            "hsk": 3,
+            "meaning": "convenient, to help out, to make things easy for people, convenience, suitable, having money to spare, (euphemism) to go to the toilet"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 370,
+        "fields": {
+            "hanzi": "放",
+            "pinyin": "fàng",
+            "hsk": 3,
+            "meaning": "to release, to free, to let go, to put, to place, to let out, to set off (fireworks)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 371,
+        "fields": {
+            "hanzi": "放心",
+            "pinyin": "fàng xīn",
+            "hsk": 3,
+            "meaning": "to feel relieved, to feel reassured, to be at ease"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 372,
+        "fields": {
+            "hanzi": "分",
+            "pinyin": "fēn",
+            "hsk": 3,
+            "meaning": "to divide, to separate, to allocate, to distinguish (good and bad), part or subdivision, fraction, one tenth (of certain units), unit of length equivalent to 0.33 cm, minute, a point (in sports or games), 0.01 yuan (unit of money)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 373,
+        "fields": {
+            "hanzi": "附近",
+            "pinyin": "fù jìn",
+            "hsk": 3,
+            "meaning": "(in the) vicinity, nearby, neighboring, next to"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 374,
+        "fields": {
+            "hanzi": "复习",
+            "pinyin": "fù xí",
+            "hsk": 3,
+            "meaning": "variant of 復習|复习, to revise, to review, revision"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 375,
+        "fields": {
+            "hanzi": "干净",
+            "pinyin": "gān jìng",
+            "hsk": 3,
+            "meaning": "clean, neat"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 376,
+        "fields": {
+            "hanzi": "敢",
+            "pinyin": "gǎn",
+            "hsk": 3,
+            "meaning": "to dare, daring, (polite) may I venture"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 377,
+        "fields": {
+            "hanzi": "感冒",
+            "pinyin": "gǎn mào",
+            "hsk": 3,
+            "meaning": "to catch cold, (common) cold, CL:場|场, 次[cì]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 378,
+        "fields": {
+            "hanzi": "刚才",
+            "pinyin": "gāng cái",
+            "hsk": 3,
+            "meaning": "(just) a moment ago"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 379,
+        "fields": {
+            "hanzi": "根据",
+            "pinyin": "gēn jù",
+            "hsk": 3,
+            "meaning": "according to, based on, basis, foundation, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 380,
+        "fields": {
+            "hanzi": "跟",
+            "pinyin": "gēn",
+            "hsk": 3,
+            "meaning": "heel, to follow closely, to go with, to marry sb (of woman), with, towards, as (compared to), from (different from), and (in addition to)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 381,
+        "fields": {
+            "hanzi": "更",
+            "pinyin": "gèng",
+            "hsk": 3,
+            "meaning": "more, even more, further, still, still more"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 382,
+        "fields": {
+            "hanzi": "公园",
+            "pinyin": "gōng yuán",
+            "hsk": 3,
+            "meaning": "public park, CL:場|场[chǎng]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 383,
+        "fields": {
+            "hanzi": "故事",
+            "pinyin": "gù shi",
+            "hsk": 3,
+            "meaning": "narrative, story, tale"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 384,
+        "fields": {
+            "hanzi": "刮",
+            "pinyin": "guā",
+            "hsk": 3,
+            "meaning": "to blow (of the wind)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 385,
+        "fields": {
+            "hanzi": "关",
+            "pinyin": "guān",
+            "hsk": 3,
+            "meaning": "mountain pass, to close, to shut, to turn off, to concern, to involve"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 386,
+        "fields": {
+            "hanzi": "关系",
+            "pinyin": "guān xì",
+            "hsk": 3,
+            "meaning": "variant of 關係|关系[guān xì]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 387,
+        "fields": {
+            "hanzi": "关心",
+            "pinyin": "guān xīn",
+            "hsk": 3,
+            "meaning": "to care for sth, caring, concerned"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 388,
+        "fields": {
+            "hanzi": "关于",
+            "pinyin": "guān yú",
+            "hsk": 3,
+            "meaning": "pertaining to, concerning, regarding, with regards to, about, a matter of"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 389,
+        "fields": {
+            "hanzi": "国家",
+            "pinyin": "guó jiā",
+            "hsk": 3,
+            "meaning": "country, nation, state, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 390,
+        "fields": {
+            "hanzi": "果汁",
+            "pinyin": "guǒ zhī",
+            "hsk": 3,
+            "meaning": "fruit juice"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 391,
+        "fields": {
+            "hanzi": "过去",
+            "pinyin": "guò qu",
+            "hsk": 3,
+            "meaning": "(in the) past, former, previous, to go over, to pass by"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 392,
+        "fields": {
+            "hanzi": "还是",
+            "pinyin": "hái shi",
+            "hsk": 3,
+            "meaning": "or, still, nevertheless, had better"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 393,
+        "fields": {
+            "hanzi": "害怕",
+            "pinyin": "hài pà",
+            "hsk": 3,
+            "meaning": "to be afraid, to be scared"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 394,
+        "fields": {
+            "hanzi": "河",
+            "pinyin": "hé",
+            "hsk": 3,
+            "meaning": "river, CL:條|条, 道[dào]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 395,
+        "fields": {
+            "hanzi": "黑板",
+            "pinyin": "hēi bǎn",
+            "hsk": 3,
+            "meaning": "blackboard, CL:塊|块, 個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 396,
+        "fields": {
+            "hanzi": "护照",
+            "pinyin": "hù zhào",
+            "hsk": 3,
+            "meaning": "passport, CL:本, 個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 397,
+        "fields": {
+            "hanzi": "花",
+            "pinyin": "huā",
+            "hsk": 3,
+            "meaning": "flower, blossom, CL:朵, 支, 束, 把, 盆, 簇[cù], fancy pattern, florid, to spend (money, time)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 398,
+        "fields": {
+            "hanzi": "花园",
+            "pinyin": "huā yuán",
+            "hsk": 3,
+            "meaning": "garden, CL:座, 個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 399,
+        "fields": {
+            "hanzi": "画",
+            "pinyin": "huà",
+            "hsk": 3,
+            "meaning": "to draw, picture, painting, CL:幅, 張|张[zhāng]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 400,
+        "fields": {
+            "hanzi": "坏",
+            "pinyin": "huài",
+            "hsk": 3,
+            "meaning": "bad, spoiled, broken, to break down"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 401,
+        "fields": {
+            "hanzi": "环境",
+            "pinyin": "huán jìng",
+            "hsk": 3,
+            "meaning": "environment, circumstances, surroundings, CL:個|个[gè], ambient"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 402,
+        "fields": {
+            "hanzi": "换",
+            "pinyin": "huàn",
+            "hsk": 3,
+            "meaning": "to change, to exchange"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 403,
+        "fields": {
+            "hanzi": "黄",
+            "pinyin": "huáng",
+            "hsk": 3,
+            "meaning": "yellow, pornographic, to fall through"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 404,
+        "fields": {
+            "hanzi": "会议",
+            "pinyin": "huì yì",
+            "hsk": 3,
+            "meaning": "meeting, conference, CL:場|场, 屆|届[jiè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 405,
+        "fields": {
+            "hanzi": "或者",
+            "pinyin": "huò zhě",
+            "hsk": 3,
+            "meaning": "or, possibly, maybe, perhaps"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 406,
+        "fields": {
+            "hanzi": "机会",
+            "pinyin": "jī huì",
+            "hsk": 3,
+            "meaning": "opportunity, chance, occasion, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 407,
+        "fields": {
+            "hanzi": "几乎",
+            "pinyin": "jī hū",
+            "hsk": 3,
+            "meaning": "almost, nearly, practically"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 408,
+        "fields": {
+            "hanzi": "极",
+            "pinyin": "jí",
+            "hsk": 3,
+            "meaning": "extremely, pole (geography, physics), utmost, top"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 409,
+        "fields": {
+            "hanzi": "记得",
+            "pinyin": "jì de",
+            "hsk": 3,
+            "meaning": "to remember"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 410,
+        "fields": {
+            "hanzi": "季节",
+            "pinyin": "jì jié",
+            "hsk": 3,
+            "meaning": "time, season, period, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 411,
+        "fields": {
+            "hanzi": "检查",
+            "pinyin": "jiǎn chá",
+            "hsk": 3,
+            "meaning": "inspection, to examine, to inspect, CL:次[cì]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 412,
+        "fields": {
+            "hanzi": "简单",
+            "pinyin": "jiǎn dān",
+            "hsk": 3,
+            "meaning": "simple, not complicated"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 413,
+        "fields": {
+            "hanzi": "见面",
+            "pinyin": "jiàn miàn",
+            "hsk": 3,
+            "meaning": "to meet, to see sb, CL:次[cì]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 414,
+        "fields": {
+            "hanzi": "健康",
+            "pinyin": "jiàn kāng",
+            "hsk": 3,
+            "meaning": "health, healthy"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 415,
+        "fields": {
+            "hanzi": "讲",
+            "pinyin": "jiǎng",
+            "hsk": 3,
+            "meaning": "to speak, to explain, to negotiate, to emphasise, to be particular about, as far as sth is concerned, speech, lecture"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 416,
+        "fields": {
+            "hanzi": "教",
+            "pinyin": "jiāo",
+            "hsk": 3,
+            "meaning": "to teach"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 417,
+        "fields": {
+            "hanzi": "脚",
+            "pinyin": "jiǎo",
+            "hsk": 3,
+            "meaning": "foot, leg, base, kick, CL:雙|双, 隻|只[zhī]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 418,
+        "fields": {
+            "hanzi": "角",
+            "pinyin": "jiǎo",
+            "hsk": 3,
+            "meaning": "angle, corner, horn, horn-shaped, unit of money equal to 0.1 yuan, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 419,
+        "fields": {
+            "hanzi": "接",
+            "pinyin": "jiē",
+            "hsk": 3,
+            "meaning": "to receive, to answer (the phone), to meet or welcome sb, to connect, to catch, to join, to extend, to take one's turn on duty, to take over for sb"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 420,
+        "fields": {
+            "hanzi": "街道",
+            "pinyin": "jiē dào",
+            "hsk": 3,
+            "meaning": "street, CL:條|条[tiáo], subdistrict, residential district"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 421,
+        "fields": {
+            "hanzi": "节目",
+            "pinyin": "jié mù",
+            "hsk": 3,
+            "meaning": "program, item (on a program), CL:臺|台, 個|个, 套[tào]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 422,
+        "fields": {
+            "hanzi": "节日",
+            "pinyin": "jié rì",
+            "hsk": 3,
+            "meaning": "holiday, festival, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 423,
+        "fields": {
+            "hanzi": "结婚",
+            "pinyin": "jié hūn",
+            "hsk": 3,
+            "meaning": "to marry, to get married, CL:次[cì]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 424,
+        "fields": {
+            "hanzi": "结束",
+            "pinyin": "jié shù",
+            "hsk": 3,
+            "meaning": "termination, to finish, to end, to conclude, to close"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 425,
+        "fields": {
+            "hanzi": "解决",
+            "pinyin": "jiě jué",
+            "hsk": 3,
+            "meaning": "to settle (a dispute), to resolve, to solve, to dispose of, to dispatch"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 426,
+        "fields": {
+            "hanzi": "借",
+            "pinyin": "jiè",
+            "hsk": 3,
+            "meaning": "to lend, to borrow, by means of, to take (an opportunity)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 427,
+        "fields": {
+            "hanzi": "经常",
+            "pinyin": "jīng cháng",
+            "hsk": 3,
+            "meaning": "day to day, everyday, daily, frequently, constantly, regularly, often"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 428,
+        "fields": {
+            "hanzi": "经过",
+            "pinyin": "jīng guò",
+            "hsk": 3,
+            "meaning": "to pass, to go through, process, course, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 429,
+        "fields": {
+            "hanzi": "经理",
+            "pinyin": "jīng lǐ",
+            "hsk": 3,
+            "meaning": "manager, director, CL:個|个, 位, 名[míng]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 430,
+        "fields": {
+            "hanzi": "久",
+            "pinyin": "jiǔ",
+            "hsk": 3,
+            "meaning": "(long) time, (long) duration of time"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 431,
+        "fields": {
+            "hanzi": "旧",
+            "pinyin": "jiù",
+            "hsk": 3,
+            "meaning": "old, opposite: new 新, former, worn (with age)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 432,
+        "fields": {
+            "hanzi": "举行",
+            "pinyin": "jǔ xíng",
+            "hsk": 3,
+            "meaning": "to hold (a meeting, ceremony etc)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 433,
+        "fields": {
+            "hanzi": "句子",
+            "pinyin": "jù zi",
+            "hsk": 3,
+            "meaning": "sentence, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 434,
+        "fields": {
+            "hanzi": "决定",
+            "pinyin": "jué dìng",
+            "hsk": 3,
+            "meaning": "to decide (to do something), to resolve, decision, CL:個|个, 項|项[xiàng], certainly"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 435,
+        "fields": {
+            "hanzi": "渴",
+            "pinyin": "kě",
+            "hsk": 3,
+            "meaning": "thirsty"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 436,
+        "fields": {
+            "hanzi": "可爱",
+            "pinyin": "kě ài",
+            "hsk": 3,
+            "meaning": "adorable, cute, lovely"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 437,
+        "fields": {
+            "hanzi": "刻",
+            "pinyin": "kè",
+            "hsk": 3,
+            "meaning": "quarter (hour), moment, to carve, to engrave, to cut, oppressive, classifier for short time intervals"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 438,
+        "fields": {
+            "hanzi": "客人",
+            "pinyin": "kè rén",
+            "hsk": 3,
+            "meaning": "visitor, guest, customer, client, CL:位[wèi]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 439,
+        "fields": {
+            "hanzi": "空调",
+            "pinyin": "kōng tiáo",
+            "hsk": 3,
+            "meaning": "air conditioning"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 440,
+        "fields": {
+            "hanzi": "口",
+            "pinyin": "kǒu",
+            "hsk": 3,
+            "meaning": "mouth, classifier for things with mouths (people, domestic animals, cannons, wells etc), classifier for bites or mouthfuls"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 441,
+        "fields": {
+            "hanzi": "哭",
+            "pinyin": "kū",
+            "hsk": 3,
+            "meaning": "to cry, to weep"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 442,
+        "fields": {
+            "hanzi": "裤子",
+            "pinyin": "kù zi",
+            "hsk": 3,
+            "meaning": "trousers, pants, CL:條|条[tiáo]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 443,
+        "fields": {
+            "hanzi": "筷子",
+            "pinyin": "kuài zi",
+            "hsk": 3,
+            "meaning": "chopsticks, CL:對|对, 根, 把, 雙|双[shuāng]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 444,
+        "fields": {
+            "hanzi": "蓝",
+            "pinyin": "lán",
+            "hsk": 3,
+            "meaning": "blue, indigo plant"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 445,
+        "fields": {
+            "hanzi": "老",
+            "pinyin": "lǎo",
+            "hsk": 3,
+            "meaning": "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity, old (of people), venerable (person), experienced, of long standing, always, all the time, of the past, very, outdated, (of meat etc) tough"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 446,
+        "fields": {
+            "hanzi": "离开",
+            "pinyin": "lí kāi",
+            "hsk": 3,
+            "meaning": "to depart, to leave"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 447,
+        "fields": {
+            "hanzi": "礼物",
+            "pinyin": "lǐ wù",
+            "hsk": 3,
+            "meaning": "gift, present, CL:件, 個|个, 份[fèn]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 448,
+        "fields": {
+            "hanzi": "历史",
+            "pinyin": "lì shǐ",
+            "hsk": 3,
+            "meaning": "history, CL:門|门, 段[duàn]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 449,
+        "fields": {
+            "hanzi": "脸",
+            "pinyin": "liǎn",
+            "hsk": 3,
+            "meaning": "face, CL:張|张, 個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 450,
+        "fields": {
+            "hanzi": "练习",
+            "pinyin": "liàn xí",
+            "hsk": 3,
+            "meaning": "exercise, drill, practice, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 451,
+        "fields": {
+            "hanzi": "辆",
+            "pinyin": "liàng",
+            "hsk": 3,
+            "meaning": "classifier for vehicles"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 452,
+        "fields": {
+            "hanzi": "了解",
+            "pinyin": "liǎo jiě",
+            "hsk": 3,
+            "meaning": "to understand, to realize, to find out"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 453,
+        "fields": {
+            "hanzi": "邻居",
+            "pinyin": "lín jū",
+            "hsk": 3,
+            "meaning": "neighbor, next door, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 454,
+        "fields": {
+            "hanzi": "楼",
+            "pinyin": "lóu",
+            "hsk": 3,
+            "meaning": "house with more than 1 story, storied building, floor, CL:層|层, 座, 棟|栋[dòng]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 455,
+        "fields": {
+            "hanzi": "绿",
+            "pinyin": "lǜ",
+            "hsk": 3,
+            "meaning": "green"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 456,
+        "fields": {
+            "hanzi": "马",
+            "pinyin": "mǎ",
+            "hsk": 3,
+            "meaning": "horse, CL:匹pi, horse or cavalry piece in Chinese chess, knight in Western chess"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 457,
+        "fields": {
+            "hanzi": "马上",
+            "pinyin": "mǎ shàng",
+            "hsk": 3,
+            "meaning": "at once, right away, immediately, on horseback (i.e. by military force)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 458,
+        "fields": {
+            "hanzi": "满意",
+            "pinyin": "mǎn yì",
+            "hsk": 3,
+            "meaning": "satisfied, pleased, to one's satisfaction"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 459,
+        "fields": {
+            "hanzi": "帽子",
+            "pinyin": "mào zi",
+            "hsk": 3,
+            "meaning": "hat, cap, (fig.) label, bad name, CL:頂|顶[dǐng]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 460,
+        "fields": {
+            "hanzi": "米",
+            "pinyin": "mǐ",
+            "hsk": 3,
+            "meaning": "rice, CL:粒[lì], meter (classifier)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 461,
+        "fields": {
+            "hanzi": "面包",
+            "pinyin": "miàn bāo",
+            "hsk": 3,
+            "meaning": "bread, CL:片, 袋, 塊|块[kuài]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 462,
+        "fields": {
+            "hanzi": "面条",
+            "pinyin": "miàn tiáo",
+            "hsk": 3,
+            "meaning": "noodles"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 463,
+        "fields": {
+            "hanzi": "明白",
+            "pinyin": "míng bai",
+            "hsk": 3,
+            "meaning": "clear, obvious, unequivocal, to understand, to realize"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 464,
+        "fields": {
+            "hanzi": "拿",
+            "pinyin": "ná",
+            "hsk": 3,
+            "meaning": "to hold, to seize, to catch, to apprehend, to take"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 465,
+        "fields": {
+            "hanzi": "奶奶",
+            "pinyin": "nǎi nai",
+            "hsk": 3,
+            "meaning": "(informal) grandma (paternal grandmother), (respectful) mistress of the house, CL:位[wèi]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 466,
+        "fields": {
+            "hanzi": "南",
+            "pinyin": "nán",
+            "hsk": 3,
+            "meaning": "south"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 467,
+        "fields": {
+            "hanzi": "难",
+            "pinyin": "nán",
+            "hsk": 3,
+            "meaning": "difficult (to...), problem, difficulty, difficult, not good"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 468,
+        "fields": {
+            "hanzi": "难过",
+            "pinyin": "nán guò",
+            "hsk": 3,
+            "meaning": "to feel sad, to feel unwell, (of life) to be difficult"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 469,
+        "fields": {
+            "hanzi": "年级",
+            "pinyin": "nián jí",
+            "hsk": 3,
+            "meaning": "grade, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 470,
+        "fields": {
+            "hanzi": "年轻",
+            "pinyin": "nián qīng",
+            "hsk": 3,
+            "meaning": "young"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 471,
+        "fields": {
+            "hanzi": "鸟",
+            "pinyin": "niǎo",
+            "hsk": 3,
+            "meaning": "bird, CL:隻|只, 群[qún]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 472,
+        "fields": {
+            "hanzi": "努力",
+            "pinyin": "nǔ lì",
+            "hsk": 3,
+            "meaning": "great effort, to strive, to try hard"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 473,
+        "fields": {
+            "hanzi": "爬山",
+            "pinyin": "pá shān",
+            "hsk": 3,
+            "meaning": "to climb a mountain, to mountaineer, hiking, mountaineering"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 474,
+        "fields": {
+            "hanzi": "盘子",
+            "pinyin": "pán zi",
+            "hsk": 3,
+            "meaning": "tray, plate, dish, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 475,
+        "fields": {
+            "hanzi": "胖",
+            "pinyin": "pàng",
+            "hsk": 3,
+            "meaning": "fat, plump"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 476,
+        "fields": {
+            "hanzi": "啤酒",
+            "pinyin": "pí jiǔ",
+            "hsk": 3,
+            "meaning": "beer, CL:杯, 瓶, 罐, 桶, 缸[gāng]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 477,
+        "fields": {
+            "hanzi": "葡萄",
+            "pinyin": "pú tao",
+            "hsk": 3,
+            "meaning": "grape"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 478,
+        "fields": {
+            "hanzi": "普通话",
+            "pinyin": "pǔ tōng huà",
+            "hsk": 3,
+            "meaning": "Mandarin (common language), Putonghua (common speech of the Chinese language), ordinary speech"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 479,
+        "fields": {
+            "hanzi": "骑",
+            "pinyin": "qí",
+            "hsk": 3,
+            "meaning": "to ride (an animal or bike), to sit astride"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 480,
+        "fields": {
+            "hanzi": "其实",
+            "pinyin": "qí shí",
+            "hsk": 3,
+            "meaning": "actually, in fact, really"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 481,
+        "fields": {
+            "hanzi": "其他",
+            "pinyin": "qí tā",
+            "hsk": 3,
+            "meaning": "other, the others, else, other than (that person), in addition to the person mentioned above"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 482,
+        "fields": {
+            "hanzi": "奇怪",
+            "pinyin": "qí guài",
+            "hsk": 3,
+            "meaning": "strange, odd, to marvel, to be baffled"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 483,
+        "fields": {
+            "hanzi": "铅笔",
+            "pinyin": "qiān bǐ",
+            "hsk": 3,
+            "meaning": "(lead) pencil, CL:支, 枝, 桿|杆[gǎn]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 484,
+        "fields": {
+            "hanzi": "清楚",
+            "pinyin": "qīng chu",
+            "hsk": 3,
+            "meaning": "clear, distinct, to understand thoroughly, to be clear about"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 485,
+        "fields": {
+            "hanzi": "秋",
+            "pinyin": "qiū",
+            "hsk": 3,
+            "meaning": "a swing"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 486,
+        "fields": {
+            "hanzi": "裙子",
+            "pinyin": "qún zi",
+            "hsk": 3,
+            "meaning": "skirt, CL:條|条[tiáo]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 487,
+        "fields": {
+            "hanzi": "然后",
+            "pinyin": "rán hòu",
+            "hsk": 3,
+            "meaning": "after, then (afterwards), after that, afterwards"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 488,
+        "fields": {
+            "hanzi": "热情",
+            "pinyin": "rè qíng",
+            "hsk": 3,
+            "meaning": "cordial, enthusiastic, passion, passionate, passionately"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 489,
+        "fields": {
+            "hanzi": "认为",
+            "pinyin": "rèn wéi",
+            "hsk": 3,
+            "meaning": "to believe, to think, to consider, to feel"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 490,
+        "fields": {
+            "hanzi": "认真",
+            "pinyin": "rèn zhēn",
+            "hsk": 3,
+            "meaning": "conscientious, earnest, serious, to take seriously, to take to heart"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 491,
+        "fields": {
+            "hanzi": "容易",
+            "pinyin": "róng yì",
+            "hsk": 3,
+            "meaning": "easy, likely, liable (to)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 492,
+        "fields": {
+            "hanzi": "如果",
+            "pinyin": "rú guǒ",
+            "hsk": 3,
+            "meaning": "if, in case, in the event that"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 493,
+        "fields": {
+            "hanzi": "伞",
+            "pinyin": "sǎn",
+            "hsk": 3,
+            "meaning": "umbrella, parasol, CL:把[bǎ]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 494,
+        "fields": {
+            "hanzi": "上网",
+            "pinyin": "shàng wǎng",
+            "hsk": 3,
+            "meaning": "to be on the internet, to stretch a net (in a sports game or for covering sth), to be netted (of fish)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 495,
+        "fields": {
+            "hanzi": "生气",
+            "pinyin": "shēng qì",
+            "hsk": 3,
+            "meaning": "angry, mad, offended, animated, to get angry, to be enraged, to take offense, animation"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 496,
+        "fields": {
+            "hanzi": "声音",
+            "pinyin": "shēng yīn",
+            "hsk": 3,
+            "meaning": "voice, sound, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 497,
+        "fields": {
+            "hanzi": "使",
+            "pinyin": "shǐ",
+            "hsk": 3,
+            "meaning": "to make, to cause, to enable, to use, to employ, to send, to instruct sb to do sth, envoy, messenger"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 498,
+        "fields": {
+            "hanzi": "世界",
+            "pinyin": "shì jiè",
+            "hsk": 3,
+            "meaning": "world, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 499,
+        "fields": {
+            "hanzi": "瘦",
+            "pinyin": "shòu",
+            "hsk": 3,
+            "meaning": "thin, to lose weight, (of clothing) tight, (of meat) lean, (of land) unproductive"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 500,
+        "fields": {
+            "hanzi": "舒服",
+            "pinyin": "shū fu",
+            "hsk": 3,
+            "meaning": "comfortable, feeling well"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 501,
+        "fields": {
+            "hanzi": "叔叔",
+            "pinyin": "shū shu",
+            "hsk": 3,
+            "meaning": "father's younger brother, uncle, Taiwan pr. [shú shu], CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 502,
+        "fields": {
+            "hanzi": "树",
+            "pinyin": "shù",
+            "hsk": 3,
+            "meaning": "tree, CL:棵[kē], to cultivate, to set up"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 503,
+        "fields": {
+            "hanzi": "数学",
+            "pinyin": "shù xué",
+            "hsk": 3,
+            "meaning": "mathematics, mathematical"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 504,
+        "fields": {
+            "hanzi": "刷",
+            "pinyin": "shuā",
+            "hsk": 3,
+            "meaning": "to brush, to paint, to daub, to paste up, to skip class (of students), to fire from a job"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 505,
+        "fields": {
+            "hanzi": "双",
+            "pinyin": "shuāng",
+            "hsk": 3,
+            "meaning": "two, double, pair, both"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 506,
+        "fields": {
+            "hanzi": "水平",
+            "pinyin": "shuǐ píng",
+            "hsk": 3,
+            "meaning": "level (of achievement etc), standard, horizontal"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 507,
+        "fields": {
+            "hanzi": "司机",
+            "pinyin": "sī jī",
+            "hsk": 3,
+            "meaning": "chauffeur, driver, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 508,
+        "fields": {
+            "hanzi": "虽然",
+            "pinyin": "suī rán",
+            "hsk": 3,
+            "meaning": "although, even though, even if"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 509,
+        "fields": {
+            "hanzi": "太阳",
+            "pinyin": "tài yáng",
+            "hsk": 3,
+            "meaning": "sun, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 510,
+        "fields": {
+            "hanzi": "糖",
+            "pinyin": "táng",
+            "hsk": 3,
+            "meaning": "sugar, sweets, candy, CL:顆|颗, 塊|块[kuài]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 511,
+        "fields": {
+            "hanzi": "特别",
+            "pinyin": "tè bié",
+            "hsk": 3,
+            "meaning": "especially, special, particular, unusual"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 512,
+        "fields": {
+            "hanzi": "疼",
+            "pinyin": "téng",
+            "hsk": 3,
+            "meaning": "(it) hurts, sore, to love dearly"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 513,
+        "fields": {
+            "hanzi": "提高",
+            "pinyin": "tí gāo",
+            "hsk": 3,
+            "meaning": "to raise, to increase"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 514,
+        "fields": {
+            "hanzi": "体育",
+            "pinyin": "tǐ yù",
+            "hsk": 3,
+            "meaning": "sports, physical education"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 515,
+        "fields": {
+            "hanzi": "甜",
+            "pinyin": "tián",
+            "hsk": 3,
+            "meaning": "sweet"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 516,
+        "fields": {
+            "hanzi": "条",
+            "pinyin": "tiáo",
+            "hsk": 3,
+            "meaning": "strip, item, article, clause (of law or treaty), classifier for long thin things (ribbon, river, road, trousers etc)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 517,
+        "fields": {
+            "hanzi": "同事",
+            "pinyin": "tóng shì",
+            "hsk": 3,
+            "meaning": "colleague, co-worker, CL:個|个, 位[wèi]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 518,
+        "fields": {
+            "hanzi": "同意",
+            "pinyin": "tóng yì",
+            "hsk": 3,
+            "meaning": "to agree, to consent, to approve"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 519,
+        "fields": {
+            "hanzi": "头发",
+            "pinyin": "tóu fa",
+            "hsk": 3,
+            "meaning": "hair (on the head)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 520,
+        "fields": {
+            "hanzi": "突然",
+            "pinyin": "tū rán",
+            "hsk": 3,
+            "meaning": "sudden, abrupt, unexpected"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 521,
+        "fields": {
+            "hanzi": "图书馆",
+            "pinyin": "tú shū guǎn",
+            "hsk": 3,
+            "meaning": "library, CL:家, 個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 522,
+        "fields": {
+            "hanzi": "腿",
+            "pinyin": "tuǐ",
+            "hsk": 3,
+            "meaning": "leg, CL:條|条[tiáo]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 523,
+        "fields": {
+            "hanzi": "完成",
+            "pinyin": "wán chéng",
+            "hsk": 3,
+            "meaning": "to complete, to accomplish"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 524,
+        "fields": {
+            "hanzi": "碗",
+            "pinyin": "wǎn",
+            "hsk": 3,
+            "meaning": "bowl, cup, CL:隻|只, 個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 525,
+        "fields": {
+            "hanzi": "万",
+            "pinyin": "wàn",
+            "hsk": 3,
+            "meaning": "ten thousand, a great number"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 526,
+        "fields": {
+            "hanzi": "忘记",
+            "pinyin": "wàng jì",
+            "hsk": 3,
+            "meaning": "to forget"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 527,
+        "fields": {
+            "hanzi": "为了",
+            "pinyin": "wèi le",
+            "hsk": 3,
+            "meaning": "in order to, for the purpose of, so as to"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 528,
+        "fields": {
+            "hanzi": "为什么",
+            "pinyin": "wèi shén me",
+            "hsk": 3,
+            "meaning": "why?, for what reason?"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 529,
+        "fields": {
+            "hanzi": "位",
+            "pinyin": "wèi",
+            "hsk": 3,
+            "meaning": "position, location, place, seat, classifier for people (honorific), classifier for binary bits (e.g. 十六位 16-bit or 2 bytes)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 530,
+        "fields": {
+            "hanzi": "文化",
+            "pinyin": "wén huà",
+            "hsk": 3,
+            "meaning": "culture, civilization, cultural, CL:個|个, 種|种[zhǒng]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 531,
+        "fields": {
+            "hanzi": "西",
+            "pinyin": "xī",
+            "hsk": 3,
+            "meaning": "west"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 532,
+        "fields": {
+            "hanzi": "习惯",
+            "pinyin": "xí guàn",
+            "hsk": 3,
+            "meaning": "habit, custom, usual practice, to be used to, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 533,
+        "fields": {
+            "hanzi": "洗手间",
+            "pinyin": "xǐ shǒu jiān",
+            "hsk": 3,
+            "meaning": "toilet, lavatory, washroom"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 534,
+        "fields": {
+            "hanzi": "洗澡",
+            "pinyin": "xǐ zǎo",
+            "hsk": 3,
+            "meaning": "to bathe, to take a shower"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 535,
+        "fields": {
+            "hanzi": "夏",
+            "pinyin": "xià",
+            "hsk": 3,
+            "meaning": "summer"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 536,
+        "fields": {
+            "hanzi": "先",
+            "pinyin": "xiān",
+            "hsk": 3,
+            "meaning": "early, prior, former, in advance, first"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 537,
+        "fields": {
+            "hanzi": "香蕉",
+            "pinyin": "xiāng jiāo",
+            "hsk": 3,
+            "meaning": "banana, CL:枝, 根, 個|个, 把[bǎ]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 538,
+        "fields": {
+            "hanzi": "相同",
+            "pinyin": "xiāng tóng",
+            "hsk": 3,
+            "meaning": "identical, same"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 539,
+        "fields": {
+            "hanzi": "相信",
+            "pinyin": "xiāng xìn",
+            "hsk": 3,
+            "meaning": "to be convinced (that sth is true), to believe, to accept sth as true"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 540,
+        "fields": {
+            "hanzi": "像",
+            "pinyin": "xiàng",
+            "hsk": 3,
+            "meaning": "to resemble, to be like, to look as if, such as, appearance, image, portrait, image under a mapping (math.)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 541,
+        "fields": {
+            "hanzi": "小心",
+            "pinyin": "xiǎo xīn",
+            "hsk": 3,
+            "meaning": "to be careful, to take care"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 542,
+        "fields": {
+            "hanzi": "校长",
+            "pinyin": "xiào zhǎng",
+            "hsk": 3,
+            "meaning": "(college, university) president, headmaster, CL:個|个, 位, 名[míng]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 543,
+        "fields": {
+            "hanzi": "鞋",
+            "pinyin": "xié",
+            "hsk": 3,
+            "meaning": "shoe, CL:雙|双, 隻|只[zhī]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 544,
+        "fields": {
+            "hanzi": "新闻",
+            "pinyin": "xīn wén",
+            "hsk": 3,
+            "meaning": "news, CL:條|条, 個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 545,
+        "fields": {
+            "hanzi": "新鲜",
+            "pinyin": "xīn xiān",
+            "hsk": 3,
+            "meaning": "fresh (experience, food etc), freshness, novel, uncommon"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 546,
+        "fields": {
+            "hanzi": "信",
+            "pinyin": "xìn",
+            "hsk": 3,
+            "meaning": "letter, mail, CL:封[fēng], to trust, to believe, to profess faith in, truthful, confidence, trust, at will, at random"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 547,
+        "fields": {
+            "hanzi": "行李箱",
+            "pinyin": "xíng li xiāng",
+            "hsk": 3,
+            "meaning": "suitcase"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 548,
+        "fields": {
+            "hanzi": "兴趣",
+            "pinyin": "xìng qù",
+            "hsk": 3,
+            "meaning": "interest (desire to know about sth), interest (thing in which one is interested), hobby, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 549,
+        "fields": {
+            "hanzi": "熊猫",
+            "pinyin": "xióng māo",
+            "hsk": 3,
+            "meaning": "panda, CL:隻|只[zhī]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 550,
+        "fields": {
+            "hanzi": "需要",
+            "pinyin": "xū yào",
+            "hsk": 3,
+            "meaning": "to need, to want, to demand, to require, requirement, need"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 551,
+        "fields": {
+            "hanzi": "选择",
+            "pinyin": "xuǎn zé",
+            "hsk": 3,
+            "meaning": "to select, to pick, choice, option, alternative"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 552,
+        "fields": {
+            "hanzi": "眼镜",
+            "pinyin": "yǎn jìng",
+            "hsk": 3,
+            "meaning": "spectacles, eyeglasses, CL:副[fù]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 553,
+        "fields": {
+            "hanzi": "要求",
+            "pinyin": "yāo qiú",
+            "hsk": 3,
+            "meaning": "to request, to require, to stake a claim, to ask, to demand, CL:點|点[diǎn]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 554,
+        "fields": {
+            "hanzi": "爷爷",
+            "pinyin": "yé ye",
+            "hsk": 3,
+            "meaning": "(informal) father's father, paternal grandfather, CL:個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 555,
+        "fields": {
+            "hanzi": "一定",
+            "pinyin": "yī dìng",
+            "hsk": 3,
+            "meaning": "surely, certainly, necessarily, fixed, a certain (extent etc), given, particular, must"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 556,
+        "fields": {
+            "hanzi": "一共",
+            "pinyin": "yī gòng",
+            "hsk": 3,
+            "meaning": "altogether"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 557,
+        "fields": {
+            "hanzi": "一会儿",
+            "pinyin": "yī huì r",
+            "hsk": 3,
+            "meaning": "a while, also pr. [yī huǐ r]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 558,
+        "fields": {
+            "hanzi": "一样",
+            "pinyin": "yī yàng",
+            "hsk": 3,
+            "meaning": "same, like, equal to, the same as, just like"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 559,
+        "fields": {
+            "hanzi": "以后",
+            "pinyin": "yǐ hòu",
+            "hsk": 3,
+            "meaning": "after, later, afterwards, following, later on, in the future"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 560,
+        "fields": {
+            "hanzi": "以前",
+            "pinyin": "yǐ qián",
+            "hsk": 3,
+            "meaning": "before, formerly, previous, ago"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 561,
+        "fields": {
+            "hanzi": "以为",
+            "pinyin": "yǐ wéi",
+            "hsk": 3,
+            "meaning": "to believe, to think, to consider, to be under the impression"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 562,
+        "fields": {
+            "hanzi": "一般",
+            "pinyin": "yī bān",
+            "hsk": 3,
+            "meaning": "same, ordinary, so-so, common, general, generally, in general"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 563,
+        "fields": {
+            "hanzi": "一边",
+            "pinyin": "yī biān",
+            "hsk": 3,
+            "meaning": "one side, either side, on the one hand, on the other hand, doing while"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 564,
+        "fields": {
+            "hanzi": "一直",
+            "pinyin": "yī zhí",
+            "hsk": 3,
+            "meaning": "straight (in a straight line), continuously, always, from the beginning of ... up to ..., all along"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 565,
+        "fields": {
+            "hanzi": "音乐",
+            "pinyin": "yīn yuè",
+            "hsk": 3,
+            "meaning": "music, CL:張|张, 曲, 段[duàn]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 566,
+        "fields": {
+            "hanzi": "银行",
+            "pinyin": "yín háng",
+            "hsk": 3,
+            "meaning": "bank, CL:家, 個|个[gè]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 567,
+        "fields": {
+            "hanzi": "应该",
+            "pinyin": "yīng gāi",
+            "hsk": 3,
+            "meaning": "ought to, should, must"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 568,
+        "fields": {
+            "hanzi": "影响",
+            "pinyin": "yǐng xiǎng",
+            "hsk": 3,
+            "meaning": "an influence, an effect, to influence, to affect (usually adversely), to disturb, CL:股[gǔ]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 569,
+        "fields": {
+            "hanzi": "用",
+            "pinyin": "yòng",
+            "hsk": 3,
+            "meaning": "to use, to employ, to have to, to eat or drink, expense or outlay, usefulness, hence, therefore"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 570,
+        "fields": {
+            "hanzi": "游戏",
+            "pinyin": "yóu xì",
+            "hsk": 3,
+            "meaning": "game, CL:場|场[chǎng], to play"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 571,
+        "fields": {
+            "hanzi": "有名",
+            "pinyin": "yǒu míng",
+            "hsk": 3,
+            "meaning": "famous, well-known"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 572,
+        "fields": {
+            "hanzi": "又",
+            "pinyin": "yòu",
+            "hsk": 3,
+            "meaning": "(once) again, also, both... and..., and yet, (used for emphasis) anyway"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 573,
+        "fields": {
+            "hanzi": "遇到",
+            "pinyin": "yù dào",
+            "hsk": 3,
+            "meaning": "to meet, to run into, to come across"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 574,
+        "fields": {
+            "hanzi": "愿意",
+            "pinyin": "yuàn yì",
+            "hsk": 3,
+            "meaning": "to wish, to want, ready, willing (to do sth)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 575,
+        "fields": {
+            "hanzi": "越",
+            "pinyin": "yuè",
+            "hsk": 3,
+            "meaning": "to exceed, to climb over, to surpass, the more... the more"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 576,
+        "fields": {
+            "hanzi": "月亮",
+            "pinyin": "yuè liang",
+            "hsk": 3,
+            "meaning": "moon"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 577,
+        "fields": {
+            "hanzi": "云",
+            "pinyin": "yún",
+            "hsk": 3,
+            "meaning": "cloud, CL:朵[duǒ]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 578,
+        "fields": {
+            "hanzi": "站",
+            "pinyin": "zhàn",
+            "hsk": 3,
+            "meaning": "station, to stand, to halt, to stop, branch of a company or organization, website"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 579,
+        "fields": {
+            "hanzi": "着急",
+            "pinyin": "zháo jí",
+            "hsk": 3,
+            "meaning": "to worry, to feel anxious, Taiwan pron. [zhāo jí]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 580,
+        "fields": {
+            "hanzi": "照顾",
+            "pinyin": "zhào gu",
+            "hsk": 3,
+            "meaning": "to take care of, to show consideration, to attend to, to look after"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 581,
+        "fields": {
+            "hanzi": "照片",
+            "pinyin": "zhào piàn",
+            "hsk": 3,
+            "meaning": "photograph, picture, CL:張|张, 套, 幅[fú]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 582,
+        "fields": {
+            "hanzi": "照相机",
+            "pinyin": "zhào xiàng jī",
+            "hsk": 3,
+            "meaning": "camera, CL:個|个, 架, 部, 台, 隻|只[zhī]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 583,
+        "fields": {
+            "hanzi": "只",
+            "pinyin": "zhī",
+            "hsk": 3,
+            "meaning": "classifier for birds and certain animals, one of a pair, some utensils, vessels etc"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 584,
+        "fields": {
+            "hanzi": "只",
+            "pinyin": "zhǐ",
+            "hsk": 3,
+            "meaning": "but, only"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 585,
+        "fields": {
+            "hanzi": "终于",
+            "pinyin": "zhōng yú",
+            "hsk": 3,
+            "meaning": "at last, in the end, finally, eventually"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 586,
+        "fields": {
+            "hanzi": "中间",
+            "pinyin": "zhōng jiān",
+            "hsk": 3,
+            "meaning": "between, intermediate, mid, middle"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 587,
+        "fields": {
+            "hanzi": "种",
+            "pinyin": "zhǒng",
+            "hsk": 3,
+            "meaning": "abbr. for 物種|物种, genus, race, seed, breed, species, strain, kind, type, has guts (i.e. courage), nerve, classifier for types: kind, sort, classifier for languages"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 588,
+        "fields": {
+            "hanzi": "重要",
+            "pinyin": "zhòng yào",
+            "hsk": 3,
+            "meaning": "important, significant, major"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 589,
+        "fields": {
+            "hanzi": "周末",
+            "pinyin": "zhōu mò",
+            "hsk": 3,
+            "meaning": "weekend"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 590,
+        "fields": {
+            "hanzi": "主要",
+            "pinyin": "zhǔ yào",
+            "hsk": 3,
+            "meaning": "main, principal, major, primary"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 591,
+        "fields": {
+            "hanzi": "祝",
+            "pinyin": "zhù",
+            "hsk": 3,
+            "meaning": "to wish, to express good wishes, to pray, (old) wizard"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 592,
+        "fields": {
+            "hanzi": "注意",
+            "pinyin": "zhù yì",
+            "hsk": 3,
+            "meaning": "to take note of, to pay attention to"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 593,
+        "fields": {
+            "hanzi": "字典",
+            "pinyin": "zì diǎn",
+            "hsk": 3,
+            "meaning": "dictionary, character dictionary, CL:本[běn]"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 594,
+        "fields": {
+            "hanzi": "自己",
+            "pinyin": "zì jǐ",
+            "hsk": 3,
+            "meaning": "oneself, one's own"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 595,
+        "fields": {
+            "hanzi": "总是",
+            "pinyin": "zǒng shì",
+            "hsk": 3,
+            "meaning": "always"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 596,
+        "fields": {
+            "hanzi": "最近",
+            "pinyin": "zuì jìn",
+            "hsk": 3,
+            "meaning": "recent, recently, these days, latest, soon, nearest (of locations), shortest (of routes)"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 597,
+        "fields": {
+            "hanzi": "作业",
+            "pinyin": "zuò yè",
+            "hsk": 3,
+            "meaning": "school assignment, homework, work, task, operation, CL:個|个[gè], to operate"
+        }
+    },
+    {
+        "model": "chinesetest.Word",
+        "pk": 598,
+        "fields": {
+            "hanzi": "作用",
+            "pinyin": "zuò yòng",
+            "hsk": 3,
+            "meaning": "to act on, to affect, action, function, activity, impact, result, effect, purpose, intent, to play a role, corresponds to English -ity, -ism, -ization, CL:個|个[gè]"
+        }
+    }
+]
