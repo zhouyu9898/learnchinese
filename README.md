@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# learnchinese
+# Learnchinese
 
 This project is not completely functional yet, you can check the Roadmap list below to see the current state of the project. Once the main features are done, this app will be deployed on Heroku.
 
@@ -102,7 +102,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/zh
 
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Credits to some really helpful resources.
 
 * [Readme template](https://github.com/othneildrew/Best-README-Template)
 * [Raw hsk json data](https://github.com/gigacool/hanyu-shuiping-kaoshi)
