@@ -2,17 +2,13 @@
 
 # learnchinese
 
-This app is not completely functional yet, you can check the Roadmap list below. Once the main features are done, this app will be deployed on Heroku.
+This project is not completely functional yet, you can check the Roadmap list below to see the current state of the project. Once the main features are done, this app will be deployed on Heroku.
 
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#built-with">Built With</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -30,6 +26,7 @@ This app is not completely functional yet, you can check the Roadmap list below.
 ## About The Project
 
 This project was built with the purpose of learning Chinese and has a different methodology than the online tools or apps used commonly. This approach focuses on memorizing the Chinese vocabulary by learning his Chinese character (hanzi) and his pronunciation (pinyin).
+
 This way you can improve your Chinese level in many aspects:
 * Reading Chinese.
 * Typing Chinese on computer/phone.
@@ -100,6 +97,7 @@ Soon
 ## Contact
 
 Zhouyu Guo - zhouyuzhouyu98@gmail.com
+
 Project Link: [https://github.com/your_username/repo_name](https://github.com/zhouyu9898/learnchinese)
 
 ## Acknowledgments
