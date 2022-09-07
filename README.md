@@ -95,7 +95,6 @@ Soon
 - [ ] Show/hide word's meaning in setting, as a hint
 - [ ] Fill About and Contact page
 - [ ] Deploy app on Heroku
-- [ ] Deploy app on Heroku
 - [ ] Add slide bar for Random words
 - [ ] Design study plan for Users
 
