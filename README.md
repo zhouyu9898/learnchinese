@@ -118,7 +118,7 @@ This is an example of a random word picked to be tested. Same format as the main
 
 Zhouyu Guo - zhouyuzhouyu98@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/zhouyu9898/learnchinese)
+Project Link: [https://github.com/zhouyu9898/learnchinese](https://github.com/zhouyu9898/learnchinese)
 
 ## Acknowledgments
 
