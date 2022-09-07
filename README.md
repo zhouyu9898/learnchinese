@@ -94,6 +94,9 @@ Soon
     - [ ] Add sign in, sign up and sign out
 - [ ] Show/hide word's meaning in setting, as a hint
 - [ ] Fill About and Contact page
+```diff
+- [ ] Deploy app on Heroku
+```
 - [ ] Deploy app on Heroku
 - [ ] Add slide bar for Random words
 - [ ] Design study plan for Users
