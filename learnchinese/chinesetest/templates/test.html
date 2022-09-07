@@ -15,7 +15,7 @@
             {% if solved_count == total_count %}
                 COMPLETED
             {% else %}
-                {{ solved_count }} / {{ total_count}}
+                {{ solved_count }}/{{ total_count}}
             {% endif %}
         </p>
     </div>
@@ -25,14 +25,14 @@
 			<form action="{% url 'chinesetest:check' %}" method="POST" autocomplete="off" id="words_form">
 				<table>
 						<tr>
-							<th>Hanzi</th>
-							<th>Pinyin</th>
-                            <th>Meaning</th>
+							<th class="hanzi_column">Hanzi</th>
+							<th class="pinyin_column">Pinyin</th>
+                            <th class="meaning_column">Meaning</th>
 						</tr>
 					{% for word in words_list %}
 						{% csrf_token %}
 						<tr>
-							<td>{{ word.hanzi }}</td>
+							<td><span class="hanzi_text">{{ word.hanzi }}</span></td>
                             {% if word.solved %}
                                 <td>
                                     <span class="checkmark">
@@ -41,10 +41,12 @@
                                     </span>
                                 </td>
                             {% else %}
-                                <td><input id="text_input" type="text" name="pinyin" autofocus></td>
-                                <td><input type="hidden" value="{{ word.id }}" name="word_id"/></td>
+                                <td>
+                                    <input id="text_input" type="text" name="pinyin" autofocus>
+                                    <input type="hidden" value="{{ word.id }}" name="word_id"/>
+                                </td>
                             {% endif %}
-                            <td>{{ word.meaning }}</td>
+                            <td class="meaning">{{ word.meaning }}</td>
 						</tr>
 				    {% endfor %}
 				</table>
