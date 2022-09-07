@@ -8,10 +8,6 @@ h1{
     margin: 2em 1em;
 }
 
-table{
-	font-size: 1.5em;
-}
-
 .button{
     margin-left: 1em;
     background-color: antiquewhite;
@@ -77,7 +73,7 @@ li.hsk_button{
 /********************* TEXT SIZE *********************/
 #text_input{
 	/* width: 50%; */
-	margin-left: 2em;
+	/* margin-left: 2em; */
 }
 
 /********************* CHECKMARK ICON *********************/
@@ -109,7 +105,61 @@ li.hsk_button{
     top:12px;
 }
 
+/********************* TEST TABLE *********************/
+table{
+    table-layout: fixed;
+    overflow: hidden;
+}
 
+th{
+    text-align: left;
+}
+
+th.hanzi_column{
+    width: 120px;
+}
+
+th.meaning_column{
+    padding-left: 20px;
+}
+
+td{
+    padding-bottom: 10px;
+}
+
+td.meaning{
+    padding-left: 20px;
+}
+
+span.hanzi_text{
+    font-size: 1.2em;
+}
+
+
+/********************* OTHERS *********************/
 #pre_test{
     margin-left: 3em;
+}
+
+/********************* HSK BUTTON  AS TABLE*********************/
+a.hsk_button{
+    /* float: left; */
+}
+
+
+li.hsk_button a{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+li.hsk_button{
+    width: 15%;
+    border-style: solid;
+    /* border-color: #ff5656; */
+    border-width: thin;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    background-color: rgb(241, 241, 241);
 }
