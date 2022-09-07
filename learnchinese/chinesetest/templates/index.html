@@ -2,16 +2,19 @@
 
 {% block content %}
     <h1>Homepage</h1>
-    <ul>
+    <ul class="hsk_button">
         {% for hsk, solved_count, total_count in hsks %}
+            <br>
             <li class="hsk_button">
                 <a href="{% url 'chinesetest:test' hsk %}" class="hsk_button">HSK {{ hsk }}</a>
             </li>
-            {% if solved_count == total_count %}
-                COMPLETED
-            {% else %}
-                {{ solved_count }}/{{ total_count}}
-            {% endif %}
+            <p>
+                {% if solved_count == total_count %}
+                    COMPLETED
+                {% else %}
+                    {{ solved_count }}/{{ total_count}} &nbsp; SOLVED
+                {% endif %}
+            </p>
         {% endfor %}
 	</ul>
     <!-- <table>
