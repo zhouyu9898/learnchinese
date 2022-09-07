@@ -2,7 +2,7 @@
 
 {% block content %}
     <h1>Homepage</h1>
-	<ul class="hsk_button">
+    <ul>
         {% for hsk, solved_count, total_count in hsks %}
             <li class="hsk_button">
                 <a href="{% url 'chinesetest:test' hsk %}" class="hsk_button">HSK {{ hsk }}</a>
@@ -14,4 +14,13 @@
             {% endif %}
         {% endfor %}
 	</ul>
+    <!-- <table>
+        {% for hsk, solved_count, total_count in hsks %}
+        <tr class="hsk_button">
+            <td class="hsk_button">
+                <a href="{% url 'chinesetest:test' hsk %}" class="hsk_button">HSK {{ hsk }}</a>
+            </td>
+        </tr>    
+        {% endfor %}
+    </table> -->
 {% endblock content %}
