@@ -42,6 +42,7 @@ I personally use this app to complement my Chinese study. Everyday I pick 10 wor
 List of major languages, frameworks or libraries used in this project.
 * Python
 * Django
+* MySQL
 * HTML
 * CSS
 * Javascript
@@ -82,15 +83,20 @@ Soon
 
 ## Roadmap
 
-Soon
-
-<!-- - [x] Add Changelog
-- [x] Add back to top links
-- [X] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish -->
+- [x] Add Word model and populate DB
+- [x] Add Index page with all hsk levels
+- [x] Add Test page with the test form
+- [x] Add useful test buttons: Check, Random and Reset
+- [x] Add horizontal navigation bar
+- [x] Track number of solved words vs total
+- [ ] Add User feature
+    - [ ] Add User model that contains Word
+    - [ ] Add sign in, sign up and sign out
+- [ ] Show/hide word's meaning in setting, as a hint
+- [ ] Fill About and Contact page
+- [ ] Deploy app on Heroku
+- [ ] Add slide bar for Random words
+- [ ] Design study plan for Users
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
