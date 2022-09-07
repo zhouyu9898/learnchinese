@@ -77,13 +77,21 @@ Install Python 3.9.13
 
 ## Usage
 
-Soon
+The usage is really simple. All you have to do is to select an HSK level and start testing!
 
 ![Screenshot](images/index_page.png)
 
+This is the home or index page. There are 6 different levels and next to each level you have "X/Y SOLVED" which is the number of words solved and the total number of words. If you have completed the whole level then "COMPLETED" will be displayed.
+
 ![Screenshot](images/test_page.png)
 
+This is an example of the HSK 5 level test. There are 2 buttons at the top, the first button 'Reset' resets the solved words turning all words of the current level to 'unsolved' state; the second button 'Random' picks a random word from the current level and displays it solely (image below).
+
+Then you have 3 columns: Hanzi, Pinyin and Meaning. The first one represents the Chinese character, the second one is the input where you have to type his pinyin and the third one is the meaning of the word. After typing the pinyin press ENTER or Check button (at bottom of the page) to check your results.
+
 ![Screenshot](images/random_page.png)
+
+This is an example of a random word chosen to be tested. Same format as the main test.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
