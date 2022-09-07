@@ -79,6 +79,12 @@ Install Python 3.9.13
 
 Soon
 
+![Screenshot](images/index_page.png)
+
+![Screenshot](images/test_page.png)
+
+![Screenshot](images/random_page.png)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
@@ -114,3 +120,9 @@ Credits to some really helpful resources.
 * [Raw hsk json data](https://github.com/gigacool/hanyu-shuiping-kaoshi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[index-screenshot]: images/index_page.png
+[test-screenshot]: images/test_page.png
+[random-screenshot]: images/random_page.png
