@@ -5,10 +5,12 @@
 -TODO 25/08/22: create user and save history
 -TODO 25/08/22 (OK 02/09/22): "X/150 LEFT" or "COMPLETED" on top of each hsk page
 -TODO 25/08/22 (OK 02/09/22): "X/150 LEFT" or "COMPLETED" on homepage next to each hsk level
--TODO 25/08/22: add word meaning column
+-TODO 25/08/22 (OK 05/09/22): add word meaning column
 -TODO 25/08/22: show/hide word meaning column, like a hint. On settings?
 -TODO 25/08/22: add about page
 -TODO 25/08/22: add contact page
 -TODO 02/09/22: slide bar to increase random elements at once
--TODO 02/09/22: add style to index page, on solved counts
--TODO 02/09/22: add style to test page, on buttons and solved counts
+-TODO 02/09/22 (OK 03/09/22): add style to index page, on solved counts
+-TODO 02/09/22 (OK 03/09/22): add style to test page, on buttons and solved counts
+-BUG 09/09/22: index hsk list bugs in smaller window size
+-TODO 09/09/22: info messages for sign up, sign in and sign out (username exists, username/psw incorrect, etc)
