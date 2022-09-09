@@ -1,6 +1,8 @@
 from django.shortcuts import render, reverse
 from django.http import HttpResponse, HttpResponseRedirect
 from django.db.models.query import EmptyQuerySet
+from django.contrib.auth.models import User
+from django.contrib.auth import authenticate, login, logout
 from .models import Word
 from .forms import TestForm
 import random
@@ -18,7 +20,7 @@ def index(request):
 
     context = {
         'hsks': zip(hsks, solved_counts, total_counts)
-    }
+    }        
 
     return render(request, 'index.html', context)
 
@@ -49,12 +51,6 @@ def check(request):
     else:
         return HttpResponseRedirect(reverse('chinesetest:random', args=(w.hsk,)))
 
-def check_form(request):
-    if request.method == 'POST':
-        form = TestForm(request.POST)
-        if form.is_valid():
-            print()
-
 
 def reset(request, hsk):
     Word.objects.all().filter(hsk=hsk).update(solved=False)
@@ -78,3 +74,39 @@ def random(request, hsk):
         }
 
     return render(request, 'test.html', context)
+
+def signup(request):
+    if request.method == 'GET':
+        print('GET')
+    elif request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        if password == request.POST.get('password_repeat'):
+            if User.objects.filter(username = username).first():
+                print('username already exists')
+            else:
+                user = User.objects.create_user(username=username, password=password)
+
+    return render(request, 'signup.html', {})
+
+def signin(request):
+    context = {}
+    if request.method == 'GET':
+        print('GET')
+    elif request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        user = authenticate(request, username=username, password=password)
+        if user:
+            login(request, user)
+            context['login_msg'] = 'login success'
+            return HttpResponseRedirect(reverse('chinesetest:index'))
+        else:
+            context['login_msg'] = 'login error'
+            return render(request, 'signin.html', context)
+
+    return render(request, 'signin.html', context)
+
+def signout(request):
+    logout(request)
+    return HttpResponseRedirect(reverse('chinesetest:index'))
