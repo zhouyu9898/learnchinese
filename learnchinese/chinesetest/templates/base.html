@@ -14,7 +14,20 @@
             <li class="sidebar"><a class="active" href="/">Home</a></li>
             <li class="sidebar"><a href="/">About</a></li>
             <li class="sidebar"><a href="/">Contact</a></li>
-            <li class="sidebar"><a href="/">Log in</a></li>
+            {% if request.user.is_authenticated %}
+                <li class="sidebar dropdown" style="float: right;">
+                    <a href="javascript:void(0)" class="sidebar dropbtn">
+                        {{ request.user.username }}
+                    </a>
+                    <div class="sidebar dropcnt">
+                        <a href="/" class="dropsubbtn">Settings</a>
+                        <a href="{% url 'chinesetest:signout' %}" class="dropsubbtn">Sign out</a>
+                    </div>
+                </li>
+            {% else %}
+                <li class="sidebar" style="float: right;"><a href="{% url 'chinesetest:signup' %}">Sign up</a></li>
+                <li class="sidebar" style="float: right;"><a href="{% url 'chinesetest:signin' %}">Sign in</a></li>
+            {% endif %}
         </ul>
         {% endblock %}
     </div>
