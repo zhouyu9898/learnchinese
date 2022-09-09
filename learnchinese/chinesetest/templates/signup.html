@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Sign up</h1>
+
+    <form action="{% url 'chinesetest:signup' %}" method="POST">
+        {% csrf_token %}
+        <label for="text"><b>Username</b></label>
+        <br>
+        <input type="text" placeholder="Enter Username" name="username" required>
+        <br>
+        <label for="psw"><b>Password</b></label>
+        <br>
+        <input type="password" placeholder="Enter Password" name="password" required>
+        <br>
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <br>
+        <input type="password" placeholder="Repeat Password" name="password_repeat" required>
+        <br>
+        <input type="submit" name="Submit">
+    </form>
+{% endblock content %}
