@@ -31,7 +31,8 @@ ul.sidebar {
 }
 
 li.sidebar {
-  float: left;
+    float: left;
+    border-right:1px solid #bbb;
 }
 
 li.sidebar a, .dropbtn {
@@ -74,23 +75,29 @@ li.dropdown {
 }
 
 /********************* HSK BUTTON *********************/
-li.hsk_button a{
+/* li.hsk_button a{
     display: block;
     padding: 14px 16px;
     text-decoration: none;
     color: black;
+} */
+
+li.hsk_button a{
+    width: 8%;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color: rgb(241, 241, 241);
+    margin-right: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 14px 12px;
 }
 
 li.hsk_button{
-    width: 15%;
-    border-style: solid;
-    /* border-color: #ff5656; */
-    border-width: thin;
-    border-radius: 6px;
-    margin-bottom: 5px;
-    background-color: rgb(241, 241, 241);
-    float: left;
-    margin-right: 10px;
+    display: block;
 }
 
 /********************* CHECKMARK ICON *********************/
@@ -121,7 +128,6 @@ li.hsk_button{
     left:8px;
     top:12px;
 }
-
 /********************* TEST TABLE *********************/
 table{
     table-layout: fixed;
