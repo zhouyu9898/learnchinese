@@ -12,5 +12,5 @@
 -TODO 02/09/22: slide bar to increase random elements at once
 -TODO 02/09/22 (OK 03/09/22): add style to index page, on solved counts
 -TODO 02/09/22 (OK 03/09/22): add style to test page, on buttons and solved counts
--BUG 09/09/22: index hsk list bugs in smaller window size
+-BUG 09/09/22 (OK 10/09/22): index hsk list bugs in smaller window size
 -TODO 09/09/22: info messages for sign up, sign in and sign out (username exists, username/psw incorrect, etc)
