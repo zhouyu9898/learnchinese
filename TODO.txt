@@ -14,3 +14,5 @@
 -TODO 02/09/22 (OK 03/09/22): add style to test page, on buttons and solved counts
 -BUG 09/09/22 (OK 10/09/22): index hsk list bugs in smaller window size
 -TODO 09/09/22: info messages for sign up, sign in and sign out (username exists, username/psw incorrect, etc)
+-TODO 23/09/22: make it work with anonymous user (signed out)
+-TODO 23/09/22: show solved words somehow, try show them in order, if not possible just show at the end.
