@@ -3,7 +3,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.db.models.query import EmptyQuerySet
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
-from .models import Word
+from .models import Word, Solve
 from .forms import TestForm
 import random
 import unidecode
@@ -13,20 +13,29 @@ def index(request):
     hsks = [i for i in range(1,7)]
     solved_counts = []
     total_counts = []
-    for hsk in hsks:
-        words = Word.objects.filter(hsk=hsk)
-        total_counts.append(words.count())
-        solved_counts.append(words.filter(solved=True).count())
+    if request.user.is_authenticated:    
+        for hsk in hsks:
+            words = Word.objects.filter(hsk=hsk)
+            solved_words = Solve.objects.filter(user=request.user).filter(word__hsk=hsk)
+            solved_counts.append(solved_words.count())
+            total_counts.append(words.count())
+
+    else:
+        solved_counts = [0] * 6
+        total_counts = [0] * 6
 
     context = {
         'hsks': zip(hsks, solved_counts, total_counts)
-    }        
-
+    }
     return render(request, 'index.html', context)
 
 def test(request, hsk):
     words = Word.objects.filter(hsk=hsk)
-    solved_count = words.filter(solved=True).count()
+    if request.user.is_authenticated:
+        solved_words = Solve.objects.filter(user=request.user).filter(word__hsk=hsk)
+        solved_count = solved_words.count()
+        words = words.exclude(id__in=solved_words.values_list('word__id'))
+    
     context = {
         'words_list': words, 
         'hsk': hsk, 
@@ -37,13 +46,11 @@ def test(request, hsk):
     return render(request, 'test.html', context)
 
 def check(request):
-    correct = 0
-    for pinyin, word_id in zip(request.POST.getlist('pinyin'), request.POST.getlist('word_id')):
-        w = Word.objects.get(id=int(word_id))
-        if unidecode.unidecode(w.pinyin).replace(' ', '').lower() == pinyin:
-            w.solved = True
-            w.save()
-            correct += 1
+    if request.user.is_authenticated:
+        for pinyin, word_id in zip(request.POST.getlist('pinyin'), request.POST.getlist('word_id')):
+            w = Word.objects.get(id=int(word_id))
+            if unidecode.unidecode(w.pinyin).replace(' ', '').lower() == pinyin:
+                Solve.objects.create(user=request.user, word=w)
 
     full_test = request.POST.get('full_test')
     if full_test == 'True':
@@ -53,7 +60,8 @@ def check(request):
 
 
 def reset(request, hsk):
-    Word.objects.all().filter(hsk=hsk).update(solved=False)
+    if request.user.is_authenticated:
+        Solve.objects.filter(user=request.user).filter(word__hsk=hsk).delete()
 
     return HttpResponseRedirect(reverse('chinesetest:test', args=(hsk,)))
 
