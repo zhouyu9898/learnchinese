@@ -21,8 +21,13 @@ def index(request):
             total_counts.append(words.count())
 
     else:
-        solved_counts = [0] * 6
-        total_counts = [0] * 6
+        if not request.session.has_key('solved_words'):
+            request.session['solved_words'] = {str(i): [] for i in range(1,7)}
+        solved_words_dict = request.session['solved_words']
+        for hsk in hsks:
+            words = Word.objects.filter(hsk=hsk)
+            total_counts.append(words.count())
+            solved_counts.append(len(solved_words_dict[str(hsk)]))
 
     context = {
         'hsks': zip(hsks, solved_counts, total_counts)
@@ -31,16 +36,24 @@ def index(request):
 
 def test(request, hsk):
     words = Word.objects.filter(hsk=hsk)
+    total_count = words.count()
     if request.user.is_authenticated:
         solved_words = Solve.objects.filter(user=request.user).filter(word__hsk=hsk)
         solved_count = solved_words.count()
         words = words.exclude(id__in=solved_words.values_list('word__id'))
+    else:
+        if not request.session.has_key('solved_words'):
+            request.session['solved_words'] = {i: [] for i in range(1,7)}
+        solved_words_id = request.session['solved_words'][str(hsk)]
+        words = words.exclude(id__in=solved_words_id)
+        solved_count = len(solved_words_id)
+
     
     context = {
         'words_list': words, 
         'hsk': hsk, 
         'full_test': True, 
-        'total_count': words.count(), 
+        'total_count': total_count, 
         'solved_count': solved_count,
     }
     return render(request, 'test.html', context)
@@ -51,6 +64,14 @@ def check(request):
             w = Word.objects.get(id=int(word_id))
             if unidecode.unidecode(w.pinyin).replace(' ', '').lower() == pinyin:
                 Solve.objects.create(user=request.user, word=w)
+    else:
+        if not request.session.has_key('solved_words'):
+            request.session['solved_words'] = {i: [] for i in range(1,7)}
+        for pinyin, word_id in zip(request.POST.getlist('pinyin'), request.POST.getlist('word_id')):
+            w = Word.objects.get(id=int(word_id))
+            if unidecode.unidecode(w.pinyin).replace(' ', '').lower() == pinyin:
+                request.session['solved_words'][str(w.hsk)].append(w.id)
+                request.session.modified = True
 
     full_test = request.POST.get('full_test')
     if full_test == 'True':
@@ -62,24 +83,44 @@ def check(request):
 def reset(request, hsk):
     if request.user.is_authenticated:
         Solve.objects.filter(user=request.user).filter(word__hsk=hsk).delete()
+    else:
+        if not request.session.has_key('solved_words'):
+            request.session['solved_words'] = {i: [] for i in range(1,7)}
+        request.session['solved_words'][str(hsk)] = []
+        request.session.modified = True
 
     return HttpResponseRedirect(reverse('chinesetest:test', args=(hsk,)))
 
 def random(request, hsk):
     words = Word.objects.filter(hsk=hsk)
-    unsolved_words = Word.objects.all().filter(hsk=hsk).filter(solved=False).order_by('?')
-    if not unsolved_words:
-        context = {'words_list': words, 'hsk': hsk, 'full_test':True}
+    total_count = words.count()
+    full_test = True
+    if request.user.is_authenticated:
+        solved_words = Solve.objects.filter(user=request.user).filter(word__hsk=hsk)
+        solved_count = solved_words.count()
+        unsolved_words = Word.objects.filter(hsk=hsk).exclude(
+                id__in=solved_words.values_list('word__id')
+            ).order_by('?')
+        if unsolved_words:
+            full_test = False
+            words = [unsolved_words[0]]
     else:
-        solved_count = words.count() - unsolved_words.count()
-        word = unsolved_words[0]
-        context = {
-            'words_list': [word], 
-            'hsk': hsk, 
-            'full_test': False, 
-            'total_count': words.count(), 
-            'solved_count': solved_count,
-        }
+        if not request.session.has_key('solved_words'):
+            request.session['solved_words'] = {i: [] for i in range(1,7)}
+        solved_words_id = request.session['solved_words'][str(hsk)]
+        solved_count = len(solved_words_id)
+        unsolved_words = words.exclude(id__in=solved_words_id).order_by('?')
+        if unsolved_words:
+            full_test = False
+            words = [unsolved_words[0]]
+
+    context = {
+        'words_list': words, 
+        'hsk': hsk, 
+        'full_test': full_test, 
+        'total_count': total_count, 
+        'solved_count': solved_count,
+    }
 
     return render(request, 'test.html', context)
 
