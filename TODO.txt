@@ -16,3 +16,4 @@
 -TODO 09/09/22: info messages for sign up, sign in and sign out (username exists, username/psw incorrect, etc)
 -TODO 23/09/22 (OK 27/09/22): make it work with anonymous user (signed out)
 -TODO 23/09/22: show solved words somehow, try show them in order, if not possible just show at the end. What about toggle button in settings to show/hide solved words?
+-BUG 27/09/22: after solving all words, nothing appears, for both users
