@@ -12,8 +12,8 @@
         {% block sidebar %}
         <ul class="sidebar">
             <li class="sidebar"><a class="active" href="/">Home</a></li>
-            <li class="sidebar"><a href="/">About</a></li>
-            <li class="sidebar"><a href="/">Contact</a></li>
+            <li class="sidebar"><a href="{% url 'chinesetest:about' %}">About</a></li>
+            <li class="sidebar"><a href="{% url 'chinesetest:contact' %}">Contact</a></li>
             {% if request.user.is_authenticated %}
                 <li class="sidebar dropdown" style="float: right; border-left:1px solid #bbb;">
                     <a href="javascript:void(0)" class="sidebar dropbtn">
