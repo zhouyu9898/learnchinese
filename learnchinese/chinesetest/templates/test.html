@@ -3,12 +3,12 @@
 {% block content %}
 	<h1>Chinese HSK {{ hsk }} test</h1>
 
-    <div id="pre_test">
+    <div class="pre_test">
         <form action="{% url 'chinesetest:reset' hsk %}">
-            <input type="submit" value="Reset" name="reset">
+            <input type="submit" value="Reset" name="reset" class="resetbtn">
         </form>
         <form action="{% url 'chinesetest:random' hsk %}">
-            <input type="submit" value="Random" name="random">
+            <input type="submit" value="Random" name="random" class="randombtn">
         </form>
 
         <p>
@@ -20,39 +20,41 @@
         </p>
     </div>
     <hr>
-	<div id="word_list">
-		<ul>
-			<form action="{% url 'chinesetest:check' %}" method="POST" autocomplete="off" id="words_form">
-				<table>
-						<tr>
-							<th class="hanzi_column">Hanzi</th>
-							<th class="pinyin_column">Pinyin</th>
-                            <th class="meaning_column">Meaning</th>
-						</tr>
-					{% for word in words_list %}
-						{% csrf_token %}
-						<tr>
-							<td><span class="hanzi_text">{{ word.hanzi }}</span></td>
-                            {% if word.solved %}
-                                <td>
-                                    <span class="checkmark">
-                                        <div class="checkmark_stem"></div>
-                                        <div class="checkmark_kick"></div>
-                                    </span>
-                                </td>
-                            {% else %}
-                                <td>
-                                    <input id="text_input" type="text" name="pinyin" autofocus>
-                                    <input type="hidden" value="{{ word.id }}" name="word_id"/>
-                                </td>
-                            {% endif %}
-                            <td class="meaning">{{ word.meaning }}</td>
-						</tr>
-				    {% endfor %}
-				</table>
-				<input type="submit" form="words_form" value="check">
-                <input type="hidden" value="{{ full_test }}" name="full_test"/>
-			</form>
-		</ul>
-	</div>
+    {% if words_list %}
+        <div id="word_list">
+            <ul>
+                <form action="{% url 'chinesetest:check' %}" method="POST" autocomplete="off" id="words_form">
+                    {% csrf_token %}
+                    <table>
+                            <tr>
+                                <th class="hanzi_column">Hanzi</th>
+                                <th class="pinyin_column">Pinyin</th>
+                                <th class="meaning_column">Meaning</th>
+                            </tr>
+                        {% for word in words_list %}
+                            <tr>
+                                <td><span class="hanzi_text">{{ word.hanzi }}</span></td>
+                                {% if word.solved %}
+                                    <td>
+                                        <span class="checkmark">
+                                            <div class="checkmark_stem"></div>
+                                            <div class="checkmark_kick"></div>
+                                        </span>
+                                    </td>
+                                {% else %}
+                                    <td>
+                                        <input id="text_input" type="text" name="pinyin" autofocus>
+                                        <input type="hidden" value="{{ word.id }}" name="word_id"/>
+                                    </td>
+                                {% endif %}
+                                <td class="meaning">{{ word.meaning }}</td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                    <input type="submit" form="words_form" value="check">
+                    <input type="hidden" value="{{ full_test }}" name="full_test"/>
+                </form>
+            </ul>
+        </div>
+    {% endif %}
 {% endblock content %}
