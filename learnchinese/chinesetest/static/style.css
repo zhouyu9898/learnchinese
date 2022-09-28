@@ -128,6 +128,7 @@ li.hsk_button{
     left:8px;
     top:12px;
 }
+
 /********************* TEST TABLE *********************/
 table{
     table-layout: fixed;
@@ -158,8 +159,68 @@ span.hanzi_text{
     font-size: 1.2em;
 }
 
+/********************* SIGN IN/UP *********************/
+.signup_container {
+    padding: 16px;
+}
+
+div.signup_container input[type=text], div.signup_container input[type=password] {
+    width: 25%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 6px;
+    background: #f1f1f1;
+}
+
+.signupbtn{
+    width: 8%;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    color: black;
+    padding: 8px;
+}
+
+p.error_msg{
+    color: red;
+    font-size: 80%;
+}
+
+input.resetbtn, input.randombtn{
+    padding: 14px 20px;
+    background-color: #e5e5e5;
+    color: rgb(1, 1, 1);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-style: solid;
+    border-width: thin;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.9;
+}
+
+input.resetbtn{
+    float: left;
+    margin-right: 20px;
+}
+
+/********************* ABOUT AND CONTACT *********************/
+p.description{
+    width: 70%;
+    margin-left: 3%;
+}
+
+ul.description_list{
+    list-style-type: circle;
+    margin-left: 3%;
+}
 
 /********************* OTHERS *********************/
-#pre_test{
+.pre_test{
     margin-left: 3em;
 }
