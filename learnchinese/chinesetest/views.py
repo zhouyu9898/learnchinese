@@ -125,6 +125,7 @@ def random(request, hsk):
     return render(request, 'test.html', context)
 
 def signup(request):
+    context = {}
     if request.method == 'GET':
         print('GET')
     elif request.method == 'POST':
@@ -132,11 +133,16 @@ def signup(request):
         password = request.POST.get('password')
         if password == request.POST.get('password_repeat'):
             if User.objects.filter(username = username).first():
-                print('username already exists')
+                context['username_error'] = 'Invalid username: username already exists'
             else:
                 user = User.objects.create_user(username=username, password=password)
+                login(request, user)
+                context['login_msg'] = 'login success'
+                return HttpResponseRedirect(reverse('chinesetest:index'))
+        else:
+            context['password_error'] = 'Invalid password: not same passwords'            
 
-    return render(request, 'signup.html', {})
+    return render(request, 'signup.html', context)
 
 def signin(request):
     context = {}
@@ -151,7 +157,7 @@ def signin(request):
             context['login_msg'] = 'login success'
             return HttpResponseRedirect(reverse('chinesetest:index'))
         else:
-            context['login_msg'] = 'login error'
+            context['login_error'] = 'Invalid username or password'
             return render(request, 'signin.html', context)
 
     return render(request, 'signin.html', context)
@@ -159,3 +165,9 @@ def signin(request):
 def signout(request):
     logout(request)
     return HttpResponseRedirect(reverse('chinesetest:index'))
+
+def about(request):
+    return render(request, 'about.html')
+
+def contact(request):
+    return render(request, 'contact.html')
