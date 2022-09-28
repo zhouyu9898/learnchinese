@@ -103,12 +103,13 @@ This is an example of a random word picked to be tested. Same format as the main
 - [x] Add useful test buttons: Check, Random and Reset
 - [x] Add horizontal navigation bar
 - [x] Track number of solved words vs total
-- [ ] Add User feature
-    - [ ] Add User model that contains Word
-    - [ ] Add sign in, sign up and sign out
-- [ ] Show/hide word's meaning in setting, as a hint
-- [ ] Fill About and Contact page
+- [X] Add User feature
+    - [X] Add User model that contains Word
+    - [X] Add sign in, sign up and sign out
+- [X] Fill About and Contact page
 - [ ] Deploy app on Heroku
+- [ ] Show/hide word's meaning in setting, as a hint
+- [ ] Show/hide solved words in setting
 - [ ] Add slide bar for Random words
 - [ ] Design study plan for Users
 
