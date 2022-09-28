@@ -4,15 +4,16 @@
     <h1>Sign up</h1>
 
     <form action="{% url 'chinesetest:signin' %}" method="POST">
-        {% csrf_token %}
-        <label for="text"><b>Username</b></label>
-        <br>
-        <input type="text" placeholder="Enter Username" name="username" required>
-        <br>
-        <label for="psw"><b>Password</b></label>
-        <br>
-        <input type="password" placeholder="Enter Password" name="password" required>
-        <br>
-        <input type="submit" name="Submit">
+        <div class="signup_container">
+            {% csrf_token %}
+            <label for="text"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+            
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+
+            <button type="submit" class="signupbtn">Sign In</button>
+            <p class="error_msg">{{ login_error }}</p>
+        </div>
     </form>
 {% endblock content %}
