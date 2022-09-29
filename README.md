@@ -4,6 +4,8 @@
 
 This project is not completely functional yet, you can check the Roadmap list below to see the current state of the project. Once the main features are done, this app will be deployed on Heroku.
 
+UPDATE 29/09/2022: it is now deployed on https://learnchinese-test.herokuapp.com/
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -107,7 +109,7 @@ This is an example of a random word picked to be tested. Same format as the main
     - [X] Add User model that contains Word
     - [X] Add sign in, sign up and sign out
 - [X] Fill About and Contact page
-- [ ] Deploy app on Heroku
+- [X] Deploy app on Heroku
 - [ ] Show/hide word's meaning in setting, as a hint
 - [ ] Show/hide solved words in setting
 - [ ] Add slide bar for Random words
